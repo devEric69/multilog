@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <ProjectSession>
+    <Version Value="11"/>
+    <BuildModes Active="Debug"/>
+    <Units Count="25">
+      <Unit0>
+        <Filename Value="multilogviewer.lpr"/>
+        <IsPartOfProject Value="True"/>
+        <EditorIndex Value="-1"/>
+        <CursorPos X="59" Y="28"/>
+        <UsageCount Value="41"/>
+      </Unit0>
+      <Unit1>
+        <Filename Value="fmain.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="frmMain"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="fMain"/>
+        <IsVisibleTab Value="True"/>
+        <TopLine Value="584"/>
+        <CursorPos X="10" Y="609"/>
+        <UsageCount Value="41"/>
+        <Bookmarks Count="1">
+          <Item0 X="33" Y="486"/>
+        </Bookmarks>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
+      </Unit1>
+      <Unit2>
+        <Filename Value="watchlist.pas"/>
+        <IsPartOfProject Value="True"/>
+        <UnitName Value="WatchList"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="155"/>
+        <CursorPos X="65" Y="165"/>
+        <UsageCount Value="41"/>
+      </Unit2>
+      <Unit3>
+        <Filename Value="fabout.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="FormAbout"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="fAbout"/>
+        <EditorIndex Value="-1"/>
+        <UsageCount Value="41"/>
+      </Unit3>
+      <Unit4>
+        <Filename Value="fmain.lfm"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="171"/>
+        <CursorPos X="34" Y="171"/>
+        <UsageCount Value="9"/>
+        <DefaultSyntaxHighlighter Value="LFM"/>
+      </Unit4>
+      <Unit5>
+        <Filename Value="../multiloglaz.pas"/>
+        <EditorIndex Value="-1"/>
+        <CursorPos X="4"/>
+        <UsageCount Value="9"/>
+      </Unit5>
+      <Unit6>
+        <Filename Value="../multilog.pas"/>
+        <UnitName Value="MultiLog"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="411"/>
+        <CursorPos X="47" Y="420"/>
+        <ExtraEditorCount Value="1"/>
+        <ExtraEditor1>
+          <EditorIndex Value="-1"/>
+          <TopLine Value="624"/>
+          <CursorPos X="29" Y="624"/>
+        </ExtraEditor1>
+        <UsageCount Value="26"/>
+      </Unit6>
+      <Unit7>
+        <Filename Value="../lcllogger.pas"/>
+        <UnitName Value="LCLLogger"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="128"/>
+        <CursorPos X="10" Y="146"/>
+        <UsageCount Value="9"/>
+      </Unit7>
+      <Unit8>
+        <Filename Value="../memochannel.pas"/>
+        <UnitName Value="MemoChannel"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="224"/>
+        <CursorPos X="38" Y="231"/>
+        <UsageCount Value="9"/>
+      </Unit8>
+      <Unit9>
+        <Filename Value="../../../../../../fpc/packages/fcl-process/src/simpleipc.pp"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="702"/>
+        <CursorPos X="26" Y="866"/>
+        <UsageCount Value="10"/>
+      </Unit9>
+      <Unit10>
+        <Filename Value="../../../../../../fpc/tests/tbs/tb0154.pp"/>
+        <UnitName Value="Bug0184"/>
+        <EditorIndex Value="-1"/>
+        <WindowIndex Value="-1"/>
+        <CursorPos X="26"/>
+        <UsageCount Value="11"/>
+      </Unit10>
+      <Unit11>
+        <Filename Value="../../../../../../fpc/rtl/inc/systemh.inc"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="717"/>
+        <CursorPos X="14" Y="737"/>
+        <UsageCount Value="9"/>
+      </Unit11>
+      <Unit12>
+        <Filename Value="../../../../../../fpc/rtl/x86_64/x86_64.inc"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="75"/>
+        <CursorPos X="39" Y="77"/>
+        <UsageCount Value="9"/>
+      </Unit12>
+      <Unit13>
+        <Filename Value="../../../../../../fpc/packages/fcl-db/src/base/bufdataset.pas"/>
+        <UnitName Value="BufDataset"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="129"/>
+        <CursorPos X="23" Y="148"/>
+        <UsageCount Value="9"/>
+      </Unit13>
+      <Unit14>
+        <Filename Value="../../../../../../fpc/packages/fcl-db/src/paradox/paradox.pp"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="168"/>
+        <CursorPos X="27" Y="188"/>
+        <UsageCount Value="9"/>
+      </Unit14>
+      <Unit15>
+        <Filename Value="../../../../../../fpc/rtl/objpas/typinfo.pp"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="572"/>
+        <CursorPos X="2" Y="600"/>
+        <UsageCount Value="9"/>
+      </Unit15>
+      <Unit16>
+        <Filename Value="../demos/all/unit1.pas"/>
+        <ComponentName Value="Form1"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="Unit1"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="399"/>
+        <CursorPos X="30" Y="422"/>
+        <UsageCount Value="9"/>
+      </Unit16>
+      <Unit17>
+        <Filename Value="../filechannel.pas"/>
+        <UnitName Value="FileChannel"/>
+        <EditorIndex Value="-1"/>
+        <WindowIndex Value="-1"/>
+        <TopLine Value="608"/>
+        <CursorPos X="40" Y="638"/>
+        <UsageCount Value="9"/>
+      </Unit17>
+      <Unit18>
+        <Filename Value="../demos/msgSenderTowardsIPCviewer.pas"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="70"/>
+        <CursorPos X="31" Y="93"/>
+        <UsageCount Value="11"/>
+      </Unit18>
+      <Unit19>
+        <Filename Value="../../../../../../lazarus/components/virtualtreeview/VirtualTrees.pas"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="29298"/>
+        <CursorPos X="44" Y="29329"/>
+        <UsageCount Value="10"/>
+      </Unit19>
+      <Unit20>
+        <Filename Value="../../../../eXe_s/e_mini_watched_dirs/tronc/primary_config_path_files_config/onlinepackagemanager/packages/luipack/luicontrols/searchedit.pas"/>
+        <UnitName Value="SearchEdit"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="137"/>
+        <CursorPos X="21" Y="206"/>
+        <UsageCount Value="9"/>
+      </Unit20>
+      <Unit21>
+        <Filename Value="../../../../../../lazarus/lcl/stdctrls.pp"/>
+        <UnitName Value="StdCtrls"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="1179"/>
+        <CursorPos X="22" Y="1206"/>
+        <UsageCount Value="11"/>
+      </Unit21>
+      <Unit22>
+        <Filename Value="../multiloglclhelpers.pas"/>
+        <UnitName Value="MultiLogLCLHelpers"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="89"/>
+        <CursorPos X="82" Y="93"/>
+        <UsageCount Value="10"/>
+      </Unit22>
+      <Unit23>
+        <Filename Value="../simpleviewer/fmain.pas"/>
+        <ComponentName Value="frmMain"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <EditorIndex Value="-1"/>
+        <WindowIndex Value="-1"/>
+        <TopLine Value="117"/>
+        <CursorPos Y="132"/>
+        <UsageCount Value="10"/>
+      </Unit23>
+      <Unit24>
+        <Filename Value="../../../../../../lazarus/lcl/include/control.inc"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="2900"/>
+        <CursorPos Y="2915"/>
+        <UsageCount Value="10"/>
+      </Unit24>
+    </Units>
+    <JumpHistory Count="1">
+      <Position1>
+        <Filename Value="fmain.pas"/>
+        <Caret Line="602" Column="5" TopLine="574"/>
+      </Position1>
+    </JumpHistory>
+    <RunParams>
+      <FormatVersion Value="2"/>
+      <Modes Count="0" ActiveMode="default"/>
+    </RunParams>
+  </ProjectSession>
+</CONFIG>
