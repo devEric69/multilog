@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <ProjectSession>
+    <Version Value="11"/>
+    <BuildModes Active="Debug"/>
+    <Units Count="14">
+      <Unit0>
+        <Filename Value="simpleipcviewer.lpr"/>
+        <IsPartOfProject Value="True"/>
+        <UsageCount Value="28"/>
+      </Unit0>
+      <Unit1>
+        <Filename Value="fmain.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="frmMain"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <IsVisibleTab Value="True"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="134"/>
+        <CursorPos X="75" Y="148"/>
+        <UsageCount Value="28"/>
+      </Unit1>
+      <Unit2>
+        <Filename Value="../logtreeview.pas"/>
+        <UnitName Value="LogTreeView"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="238"/>
+        <CursorPos X="81" Y="257"/>
+        <UsageCount Value="23"/>
+      </Unit2>
+      <Unit3>
+        <Filename Value="fmain.lfm"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="76"/>
+        <CursorPos X="6" Y="85"/>
+        <UsageCount Value="10"/>
+        <DefaultSyntaxHighlighter Value="LFM"/>
+      </Unit3>
+      <Unit4>
+        <Filename Value="../multilog.pas"/>
+        <UnitName Value="MultiLog"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="64"/>
+        <CursorPos X="30" Y="80"/>
+        <UsageCount Value="14"/>
+      </Unit4>
+      <Unit5>
+        <Filename Value="../../../../../../fpc/rtl/objpas/classes/classesh.inc"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="857"/>
+        <CursorPos X="15" Y="872"/>
+        <UsageCount Value="12"/>
+      </Unit5>
+      <Unit6>
+        <Filename Value="../demos/all/AutoMultiLogViewer.lpr"/>
+        <UnitName Value="MultiLog"/>
+        <EditorIndex Value="-1"/>
+        <UsageCount Value="10"/>
+      </Unit6>
+      <Unit7>
+        <Filename Value="../../../../../../fpc/packages/fcl-process/src/simpleipc.pp"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="159"/>
+        <CursorPos X="47" Y="174"/>
+        <UsageCount Value="12"/>
+      </Unit7>
+      <Unit8>
+        <Filename Value="../demos/all/unit1.pas"/>
+        <ComponentName Value="Form1"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="Unit1"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="197"/>
+        <CursorPos X="30" Y="205"/>
+        <UsageCount Value="10"/>
+      </Unit8>
+      <Unit9>
+        <Filename Value="../demos/msgSenderTowardsIPCviewer.pas"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="60"/>
+        <CursorPos X="33" Y="63"/>
+        <UsageCount Value="12"/>
+      </Unit9>
+      <Unit10>
+        <Filename Value="../ipcchannel.pas"/>
+        <UnitName Value="IPCChannel"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="112"/>
+        <CursorPos Y="124"/>
+        <UsageCount Value="12"/>
+      </Unit10>
+      <Unit11>
+        <Filename Value="../filechannel.pas"/>
+        <UnitName Value="FileChannel"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="574"/>
+        <CursorPos X="87" Y="593"/>
+        <UsageCount Value="10"/>
+      </Unit11>
+      <Unit12>
+        <Filename Value="../memochannel.pas"/>
+        <UnitName Value="MemoChannel"/>
+        <EditorIndex Value="-1"/>
+        <TopLine Value="196"/>
+        <CursorPos X="87" Y="199"/>
+        <UsageCount Value="10"/>
+      </Unit12>
+      <Unit13>
+        <Filename Value="../multiloguser2.inc"/>
+        <EditorIndex Value="-1"/>
+        <CursorPos X="47" Y="3"/>
+        <UsageCount Value="10"/>
+      </Unit13>
+    </Units>
+    <JumpHistory HistoryIndex="-1"/>
+    <RunParams>
+      <FormatVersion Value="2"/>
+      <Modes Count="0" ActiveMode="default"/>
+    </RunParams>
+  </ProjectSession>
+  <Debugging>
+    <BreakPoints Count="1">
+      <Item1>
+        <Kind Value="bpkSource"/>
+        <WatchScope Value="wpsLocal"/>
+        <WatchKind Value="wpkWrite"/>
+        <Source Value="../ipcchannel.pas"/>
+        <Line Value="124"/>
+      </Item1>
+    </BreakPoints>
+  </Debugging>
+</CONFIG>
