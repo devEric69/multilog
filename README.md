@@ -42,7 +42,7 @@ However, there can be several classification groups for the chosen method: (lwIn
 Beware: a group like (lwInfo, lwWarning, lwError, lwDebug, lwIPC) seems clever, for me anymay. It's up to you.
 That's all there is to anderstand...
 <pre>
-<u>drawn summary...:</u><br>
+<u><i>drawn summary...:</i></u><br>
 <br>
                      |
   several TIntegratedLogger's API calls 
@@ -59,7 +59,7 @@ FsetFilterDynamic_ofWhatCanBeEffectivelyLogged:= [lwEvents,lwDebug];
                   .../...
                      |
 <br><br>
-<u>...the continuation:</u><br>
+<u><i>...the continuation:</i></u><br>
 <br>
 each message is multiplexed: it is sent by each existing display channel over time,
 on a display medium (TMemo □, TFileText ○,TLogTreeView ▶) where it is displayed:
