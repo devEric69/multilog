@@ -1,0 +1,152 @@
+﻿<!doctype html>
+<html>
+  <head>
+    <meta content="text/html; charset=UTF-8" http-equiv="content-type">
+    <title>Brief summmary of the processing of "MultiLog", the TIntegratedLogger's API call:</title>
+    <meta name="description" content="">	
+  </head>
+  <body>
+    <header></header>
+    <nav></nav>
+    <article>
+    
+<style type="text/css">
+
+/* violet très pâle */
+.stabilo_posteriori, .stabilo_violet {
+	font-size:12.0pt;
+	background-color:#ffccff;
+}
+
+.stabilo_jaune {
+	font-size:12.0pt;
+	background-color:#ffff00;
+}
+
+.stabilo_vert {
+	font-size:12.0pt;
+	background-color:#31B404;
+}
+
+.stabilo_sapin {
+	font-size:12.0pt;
+	background-color:teal;
+	color:white;
+}
+
+.stabilo_yellowgreen, .yellow, .jaune {
+	font-size:12.0pt;
+	background-color:#64FE2E;
+}
+
+.stabilo_orange {
+	font-size:12.0pt;
+	background-color:#FFCC00;
+}
+
+.stabilo_rouge {
+	font-size:12.0pt;
+	background-color:#ff0000;
+	color:#ffffff;
+}
+
+.stabilo_bleu {
+	font-size:12.0pt;
+	background-color:#4169E1;
+	color: #ffffff;
+}
+
+.stabilo_bleu_ciel {
+	font-size:12.0pt;
+	background-color:#79F8F8;
+}
+	
+/* gris */
+.stabilo_gris {
+	font-size:12.0pt;
+	background-color:#d3d3d3;
+}	
+
+</style>    
+
+<h1 align="center"> Why another "MultiLog"'s fork? </h1>
+Basically, it's the same as "MultiLog" at 97%.<br>
+<br>
+<span class="stabilo_jaune">The only difference is that, this is a simplified integration of the logging.</span><br>
+This small transformation is a simplified integration of the logging mechanism, of a logged message: 
+to summarize, Multilog's TLogger class allows the variation of both, a group of target reasons, and a group of source resaons associated with the message. 
+Multilog's TLogger class logs the intersection of the latter with the message.<br>
+The Class TIntegratedLogger now, uses only one group: the group associated with the message. This group must be modified before the logging call.<br>
+<span class="stabilo_violet">The modification of this only group, is logged with the character °</span>: so, I can follow where this group is modified.<br>
+Another small change: the Class TFileChannel has been modified to be "thread safe", too. And it can indent the logged events by watching the ESP machine register variation
+  
+<br><br><br>
+<h3> Brief summmary of the processing of "MultiLog": </h3>
+
+<br>
+<u>prerequisites ❶:</u><br>
+The Class TIntegratedLogger has a group of methods to trace a program: methEnterMethod, methExitMethod, methValue, methInfo, methWaring, an so one.<br>
+Many methods then... without one: methDebug !<br>
+<br>
+<u>prerequisites ❷:</u><br>
+Repeated again, MultiLog is a set of methods, to trace a program WITHOUT the methDebug.<br>
+<br>
+<u>prerequisites ❸:</u><br>
+==> There are only 1 classification groups in TIntegratedLogger: a subgroup, which is a dynamic group \ "set of", which is the filter that lists the ***effectively purposes***, 
+reasons (among all the preceding possible), with each TIntegratedLogger's logging method considered, 
+of why one writes actually and sub-sequentially in the log (FsetFilterDynamic_ofWhatCanBeEffectivelyLogged).<br>
+
+<br><br><br>
+<h3>Global explanation:</h3>
+Now, a method is chosen to log. A simple method: methInfo, methWarning, methError, ... For which purpose(s), classification group(s)?. At least, the simplest: lwInfo, or lwWarning, or lwError.
+However, there can be several classification groups for the chosen method: (lwInfo, lwDebug), or (lwWarning, lwDebug), or (lwError, lwDebug). Or (lwInfo, lwDebug, lwIPC), or (lwWarning, lwDebug, lwIPC), or (lwError, lwDebug, lwIPC), and so on depending on how you analize things. 
+<span class="stabilo_gris">You can define yours, in multiuser*.inc.</span>
+Beware: a group like (lwInfo, lwWarning, lwError, lwDebug, lwIPC) seems to clever, for me anymay. It's up to you.
+That's all there is to anderstand...
+<pre>
+drawn summary 1:
+          |
+  variation TIntegratedLogger's API calls are writtent in the source.
+          .../...
+FsetFilterDynamic_ofWhatCanBeEffectivelyLogged:= [lwEvents];
+        (methEnterMethod)→
+        (methValue\@integer)→  .  .  .  .  .  .  .  .  .  .  .  .  .  .  (TChannels; it goes below).  .  .>
+        (methExitMethod)→
+FsetFilterDynamic_ofWhatCanBeEffectivelyLogged:= [lwEvents,lwDebug];
+  (methSubEventBetweenEnterAndExitMethods\@boolean)→
+
+
+
+drawn summary 2:
+
+each message is multiplexed: it is sent by each existing display channel over time,
+on a display medium (TMemo □, TFileText ○,TLogTreeView ▶) where it is displayed:.
+
+                                     ------→                                                     ○ + □
+                                     |
+(TChannels; hereinafter) .  .  .  .  .>(methValue\@integer)--→                                   □
+                                     |
+                                     |
+                                     |
+                                     ------→                                                     ○
+                                     |
+                                     ------→                                                     ○ + ▶
+
+                                                                                  
+
+</pre>
+
+<br><br><br>
+<h3> Other modifications: </h3>
+• SQL Exceptions that inherit from EDatabaseError are all logged in their <b>own Log_SQL.txt</b>. Indeed, in an SQL application, the majority of errors are due to bad SQL statements, 
+leading to subsequent normal Exceptions and errors.<br>
+You can customize your own SQL Exception retrievals, depending on your own (SQL Classes) hierarchy, which itself often depends on your database driver (SQLdb, IBX, Zeos, ...), 
+in the file <span class="stabilo_gris">getdescriptionof_sql_exception.inc</span>.<br>      
+<br> 
+• The TFileText medium display is 'thread safe' (in the same way that TMemo was made 'thread safe') with a specialized Semaphore named a Critical section of code.<br>
+
+	</article>
+    <aside></aside>
+    <footer></footer>
+  </body>
+</html>
