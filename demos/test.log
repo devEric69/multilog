@@ -1,0 +1,2108 @@
+=== Log Session Started at 3-2-20 17:40:51 by msgSenderTowardsIPCviewer ===
+17:40:51:259 Hello 1
+17:40:51:260 Hello 2
+17:40:51:260 Counter1=1
+17:40:51:260 AStrWatch=XXXX
+17:40:51:260 Only show if not called by TestLogClick
+17:40:51:260 Manual exception num#1 raised!°
+             Exception - Manual exception num#1 raised!
+               $0000000000400DD7 line 40 of msgSenderTowardsIPCviewer.pas
+17:40:51:261 Counter1=2
+17:40:51:261 AStrWatch=XXXX
+17:40:51:261 An empty StringList
+              
+17:40:51:261 CounteR1=3
+17:40:51:261 AIntWatch=123
+17:40:51:261 A Text Message
+17:40:51:261 CounTER1=4
+17:40:51:261 Another Text Message
+17:40:51:261 Counter1=3
+17:40:51:262 AIntWatch=321
+17:40:51:262 A Error Message°
+17:40:51:262 Counter1=0
+17:40:51:262 ASTRWatch=YYYY
+17:40:51:262 An Object/Component [$00007F814A01D3C0]
+object The_Obj_Name: TMyObject
+  Id = 2
+end
+17:40:51:262 °°
+17:40:51:262 MultiLog API `Info` for *debug* purpose°
+17:40:51:262 Counter1=1
+17:40:51:262 AStrWatch=XXXX
+17:40:51:262 MultiLog API `Error` for *debug* purpose°
+17:40:51:262 Counter1=2
+17:40:51:262 Counter1=3
+17:40:51:262 Counter1=4
+17:40:51:263 Counter1=5
+17:40:51:263 Counter1=6
+17:40:51:263    DoIt°
+17:40:51:263       AText inside DoIt
+17:40:51:263       A Warning°
+17:40:51:263       A String = sadjfgadsfbmsandfb
+17:40:51:263       AInteger = 4957
+17:40:51:263       A Boolean = True
+17:40:51:265       A CallStack example
+                     $00000000004AA314 line 981 of multilog.pas
+                     $00000000004012D8 line 87 of msgSenderTowardsIPCviewer.pas
+                     $0000000000400B4D
+17:40:51:265    DoIt°
+17:40:51:265 A StringList
+             aaaaaa
+             bbbbbb
+             cccccc
+17:40:51:265 °°
+17:40:51:265 This Text Should be logged with [lwInfo]
+17:40:51:265 This Text Should be logged with [lwInfo,lwIPC]
+17:40:51:265 Info°
+17:40:51:265 Error°
+17:40:51:265 Warning°
+17:40:51:265 HeapInfo in except..end;
+             All values are in [bytes]:
+             MaxHeapSize: 491,520
+             MaxHeapUsed: 28,288
+             CurrHeapSize: 491,520
+             CurrHeapUsed: 19,936
+             CurrHeapFree: 471,584
+17:40:51:266 Manual exception raised!°
+             Exception - Manual exception raised!
+               $00000000004013C1 line 97 of msgSenderTowardsIPCviewer.pas
+=== Log Session Started at 3-2-20 17:40:56 by msgSenderTowardsIPCviewer ===
+17:40:56:109 Hello 1
+17:40:56:109 Hello 2
+17:40:56:109 Counter1=1
+17:40:56:109 AStrWatch=XXXX
+17:40:56:109 Only show if not called by TestLogClick
+17:40:56:110 Manual exception num#1 raised!°
+             Exception - Manual exception num#1 raised!
+               $0000000000400DD7 line 40 of msgSenderTowardsIPCviewer.pas
+17:40:56:110 Counter1=2
+17:40:56:110 AStrWatch=XXXX
+17:40:56:110 An empty StringList
+              
+17:40:56:110 CounteR1=3
+17:40:56:110 AIntWatch=123
+17:40:56:110 A Text Message
+17:40:56:110 CounTER1=4
+17:40:56:111 Another Text Message
+17:40:56:111 Counter1=3
+17:40:56:111 AIntWatch=321
+17:40:56:111 A Error Message°
+17:40:56:111 Counter1=0
+17:40:56:111 ASTRWatch=YYYY
+17:40:56:111 An Object/Component [$00007F160D6633C0]
+object The_Obj_Name: TMyObject
+  Id = 2
+end
+17:40:56:111 °°
+17:40:56:111 MultiLog API `Info` for *debug* purpose°
+17:40:56:111 Counter1=1
+17:40:56:111 AStrWatch=XXXX
+17:40:56:111 MultiLog API `Error` for *debug* purpose°
+17:40:56:112 Counter1=2
+17:40:56:112 Counter1=3
+17:40:56:112 Counter1=4
+17:40:56:112 Counter1=5
+17:40:56:112 Counter1=6
+17:40:56:112    DoIt°
+17:40:56:112       AText inside DoIt
+17:40:56:112       A Warning°
+17:40:56:112       A String = sadjfgadsfbmsandfb
+17:40:56:112       AInteger = 4957
+17:40:56:112       A Boolean = True
+17:40:56:115       A CallStack example
+                     $00000000004AA314 line 981 of multilog.pas
+                     $00000000004012D8 line 87 of msgSenderTowardsIPCviewer.pas
+                     $0000000000400B4D
+17:40:56:115    DoIt°
+17:40:56:115 A StringList
+             aaaaaa
+             bbbbbb
+             cccccc
+17:40:56:115 °°
+17:40:56:115 This Text Should be logged with [lwInfo]
+17:40:56:115 This Text Should be logged with [lwInfo,lwIPC]
+17:40:56:115 Info°
+17:40:56:115 Error°
+17:40:56:115 Warning°
+17:40:56:115 HeapInfo in except..end;
+             All values are in [bytes]:
+             MaxHeapSize: 491,520
+             MaxHeapUsed: 28,288
+             CurrHeapSize: 491,520
+             CurrHeapUsed: 19,936
+             CurrHeapFree: 471,584
+17:40:56:115 Manual exception raised!°
+             Exception - Manual exception raised!
+               $00000000004013C1 line 97 of msgSenderTowardsIPCviewer.pas
+=== Log Session Started at 3-2-20 17:41:03 by msgSenderTowardsIPCviewer ===
+17:41:03:079 Hello 1
+17:41:03:079 Hello 2
+17:41:03:079 Counter1=1
+17:41:03:079 AStrWatch=XXXX
+17:41:03:079 Only show if not called by TestLogClick
+17:41:03:079 Manual exception num#1 raised!°
+             Exception - Manual exception num#1 raised!
+               $0000000000400DD7 line 40 of msgSenderTowardsIPCviewer.pas
+17:41:03:080 Counter1=2
+17:41:03:080 AStrWatch=XXXX
+17:41:03:080 An empty StringList
+              
+17:41:03:080 CounteR1=3
+17:41:03:080 AIntWatch=123
+17:41:03:080 A Text Message
+17:41:03:080 CounTER1=4
+17:41:03:080 Another Text Message
+17:41:03:080 Counter1=3
+17:41:03:080 AIntWatch=321
+17:41:03:080 A Error Message°
+17:41:03:081 Counter1=0
+17:41:03:081 ASTRWatch=YYYY
+17:41:03:081 An Object/Component [$00007FCEFC0963C0]
+object The_Obj_Name: TMyObject
+  Id = 2
+end
+17:41:03:081 °°
+17:41:03:081 MultiLog API `Info` for *debug* purpose°
+17:41:03:081 Counter1=1
+17:41:03:081 AStrWatch=XXXX
+17:41:03:081 MultiLog API `Error` for *debug* purpose°
+17:41:03:081 Counter1=2
+17:41:03:081 Counter1=3
+17:41:03:081 Counter1=4
+17:41:03:081 Counter1=5
+17:41:03:082 Counter1=6
+17:41:03:082    DoIt°
+17:41:03:082       AText inside DoIt
+17:41:03:082       A Warning°
+17:41:03:082       A String = sadjfgadsfbmsandfb
+17:41:03:082       AInteger = 4957
+17:41:03:082       A Boolean = True
+17:41:03:085       A CallStack example
+                     $00000000004AA314 line 981 of multilog.pas
+                     $00000000004012D8 line 87 of msgSenderTowardsIPCviewer.pas
+                     $0000000000400B4D
+17:41:03:086    DoIt°
+17:41:03:086 A StringList
+             aaaaaa
+             bbbbbb
+             cccccc
+17:41:03:086 °°
+17:41:03:086 This Text Should be logged with [lwInfo]
+17:41:03:086 This Text Should be logged with [lwInfo,lwIPC]
+17:41:03:086 Info°
+17:41:03:086 Error°
+17:41:03:086 Warning°
+17:41:03:086 HeapInfo in except..end;
+             All values are in [bytes]:
+             MaxHeapSize: 491,520
+             MaxHeapUsed: 28,288
+             CurrHeapSize: 491,520
+             CurrHeapUsed: 19,936
+             CurrHeapFree: 471,584
+17:41:03:086 Manual exception raised!°
+             Exception - Manual exception raised!
+               $00000000004013C1 line 97 of msgSenderTowardsIPCviewer.pas
+=== Log Session Started at 3-2-20 17:41:28 by msgSenderTowardsIPCviewer ===
+17:41:28:930 Hello 1
+17:41:28:930 Hello 2
+17:41:28:930 Counter1=1
+17:41:28:930 AStrWatch=XXXX
+17:41:28:931 Only show if not called by TestLogClick
+17:41:28:931 Manual exception num#1 raised!°
+             Exception - Manual exception num#1 raised!
+               $0000000000400DD7 line 40 of msgSenderTowardsIPCviewer.pas
+17:41:28:932 Counter1=2
+17:41:28:932 AStrWatch=XXXX
+17:41:28:932 An empty StringList
+              
+17:41:28:932 CounteR1=3
+17:41:28:932 AIntWatch=123
+17:41:28:932 A Text Message
+17:41:28:932 CounTER1=4
+17:41:28:932 Another Text Message
+17:41:28:932 Counter1=3
+17:41:28:932 AIntWatch=321
+17:41:28:932 A Error Message°
+17:41:28:932 Counter1=0
+17:41:28:932 ASTRWatch=YYYY
+17:41:28:932 An Object/Component [$00007F34720913C0]
+object The_Obj_Name: TMyObject
+  Id = 2
+end
+17:41:28:932 °°
+17:41:28:932 MultiLog API `Info` for *debug* purpose°
+17:41:28:932 Counter1=1
+17:41:28:932 AStrWatch=XXXX
+17:41:28:933 MultiLog API `Error` for *debug* purpose°
+17:41:28:933 Counter1=2
+17:41:28:933 Counter1=3
+17:41:28:933 Counter1=4
+17:41:28:934 Counter1=5
+17:41:28:934 Counter1=6
+17:41:28:934    DoIt°
+17:41:28:934       AText inside DoIt
+17:41:28:934       A Warning°
+17:41:28:934       A String = sadjfgadsfbmsandfb
+17:41:28:934       AInteger = 4957
+17:41:28:934       A Boolean = True
+17:41:28:936       A CallStack example
+                     $00000000004AA314 line 981 of multilog.pas
+                     $00000000004012D8 line 87 of msgSenderTowardsIPCviewer.pas
+                     $0000000000400B4D
+17:41:28:936    DoIt°
+17:41:28:936 A StringList
+             aaaaaa
+             bbbbbb
+             cccccc
+17:41:28:936 °°
+17:41:28:937 This Text Should be logged with [lwInfo]
+17:41:28:937 This Text Should be logged with [lwInfo,lwIPC]
+17:41:28:937 Info°
+17:41:28:937 Error°
+17:41:28:937 Warning°
+17:41:28:937 HeapInfo in except..end;
+             All values are in [bytes]:
+             MaxHeapSize: 491,520
+             MaxHeapUsed: 28,288
+             CurrHeapSize: 491,520
+             CurrHeapUsed: 19,936
+             CurrHeapFree: 471,584
+17:41:28:937 Manual exception raised!°
+             Exception - Manual exception raised!
+               $00000000004013C1 line 97 of msgSenderTowardsIPCviewer.pas
+=== Log Session Started at 3-2-20 17:41:32 by msgSenderTowardsIPCviewer ===
+17:41:32:418 Hello 1
+17:41:32:418 Hello 2
+17:41:32:419 Counter1=1
+17:41:32:419 AStrWatch=XXXX
+17:41:32:419 Only show if not called by TestLogClick
+17:41:32:419 Manual exception num#1 raised!°
+             Exception - Manual exception num#1 raised!
+               $0000000000400DD7 line 40 of msgSenderTowardsIPCviewer.pas
+17:41:32:420 Counter1=2
+17:41:32:420 AStrWatch=XXXX
+17:41:32:420 An empty StringList
+              
+17:41:32:420 CounteR1=3
+17:41:32:420 AIntWatch=123
+17:41:32:420 A Text Message
+17:41:32:420 CounTER1=4
+17:41:32:420 Another Text Message
+17:41:32:421 Counter1=3
+17:41:32:421 AIntWatch=321
+17:41:32:421 A Error Message°
+17:41:32:421 Counter1=0
+17:41:32:421 ASTRWatch=YYYY
+17:41:32:421 An Object/Component [$00007F764F27B3C0]
+object The_Obj_Name: TMyObject
+  Id = 2
+end
+17:41:32:421 °°
+17:41:32:422 MultiLog API `Info` for *debug* purpose°
+17:41:32:422 Counter1=1
+17:41:32:422 AStrWatch=XXXX
+17:41:32:422 MultiLog API `Error` for *debug* purpose°
+17:41:32:422 Counter1=2
+17:41:32:422 Counter1=3
+17:41:32:422 Counter1=4
+17:41:32:422 Counter1=5
+17:41:32:422 Counter1=6
+17:41:32:422    DoIt°
+17:41:32:423       AText inside DoIt
+17:41:32:423       A Warning°
+17:41:32:423       A String = sadjfgadsfbmsandfb
+17:41:32:423       AInteger = 4957
+17:41:32:423       A Boolean = True
+17:41:32:426       A CallStack example
+                     $00000000004AA314 line 981 of multilog.pas
+                     $00000000004012D8 line 87 of msgSenderTowardsIPCviewer.pas
+                     $0000000000400B4D
+17:41:32:426    DoIt°
+17:41:32:426 A StringList
+             aaaaaa
+             bbbbbb
+             cccccc
+17:41:32:426 °°
+17:41:32:426 This Text Should be logged with [lwInfo]
+17:41:32:426 This Text Should be logged with [lwInfo,lwIPC]
+17:41:32:426 Info°
+17:41:32:426 Error°
+17:41:32:426 Warning°
+17:41:32:427 HeapInfo in except..end;
+             All values are in [bytes]:
+             MaxHeapSize: 491,520
+             MaxHeapUsed: 28,288
+             CurrHeapSize: 491,520
+             CurrHeapUsed: 19,936
+             CurrHeapFree: 471,584
+17:41:32:427 Manual exception raised!°
+             Exception - Manual exception raised!
+               $00000000004013C1 line 97 of msgSenderTowardsIPCviewer.pas
+=== Log Session Started at 3-2-20 17:41:40 by msgSenderTowardsIPCviewer ===
+17:41:40:634 Hello 1
+17:41:40:634 Hello 2
+17:41:40:634 Counter1=1
+17:41:40:635 AStrWatch=XXXX
+17:41:40:635 Only show if not called by TestLogClick
+17:41:40:635 Manual exception num#1 raised!°
+             Exception - Manual exception num#1 raised!
+               $0000000000400DD7 line 40 of msgSenderTowardsIPCviewer.pas
+17:41:40:636 Counter1=2
+17:41:40:636 AStrWatch=XXXX
+17:41:40:636 An empty StringList
+              
+17:41:40:636 CounteR1=3
+17:41:40:636 AIntWatch=123
+17:41:40:636 A Text Message
+17:41:40:637 CounTER1=4
+17:41:40:637 Another Text Message
+17:41:40:637 Counter1=3
+17:41:40:637 AIntWatch=321
+17:41:40:637 A Error Message°
+17:41:40:637 Counter1=0
+17:41:40:637 ASTRWatch=YYYY
+17:41:40:638 An Object/Component [$00007F1EF83793C0]
+object The_Obj_Name: TMyObject
+  Id = 2
+end
+17:41:40:638 °°
+17:41:40:638 MultiLog API `Info` for *debug* purpose°
+17:41:40:638 Counter1=1
+17:41:40:638 AStrWatch=XXXX
+17:41:40:638 MultiLog API `Error` for *debug* purpose°
+17:41:40:638 Counter1=2
+17:41:40:638 Counter1=3
+17:41:40:638 Counter1=4
+17:41:40:638 Counter1=5
+17:41:40:639 Counter1=6
+17:41:40:639    DoIt°
+17:41:40:639       AText inside DoIt
+17:41:40:639       A Warning°
+17:41:40:639       A String = sadjfgadsfbmsandfb
+17:41:40:639       AInteger = 4957
+17:41:40:639       A Boolean = True
+17:41:40:641       A CallStack example
+                     $00000000004AA314 line 981 of multilog.pas
+                     $00000000004012D8 line 87 of msgSenderTowardsIPCviewer.pas
+                     $0000000000400B4D
+17:41:40:641    DoIt°
+17:41:40:641 A StringList
+             aaaaaa
+             bbbbbb
+             cccccc
+17:41:40:641 °°
+17:41:40:641 This Text Should be logged with [lwInfo]
+17:41:40:641 This Text Should be logged with [lwInfo,lwIPC]
+17:41:40:642 Info°
+17:41:40:642 Error°
+17:41:40:642 Warning°
+17:41:40:642 HeapInfo in except..end;
+             All values are in [bytes]:
+             MaxHeapSize: 491,520
+             MaxHeapUsed: 160,576
+             CurrHeapSize: 491,520
+             CurrHeapUsed: 24,768
+             CurrHeapFree: 466,752
+17:41:40:642 Manual exception raised!°
+             Exception - Manual exception raised!
+               $00000000004013C1 line 97 of msgSenderTowardsIPCviewer.pas
+=== Log Session Started at 3-2-20 17:51:35 by msgSenderTowardsIPCviewer ===
+17:51:35:403 Hello 1
+17:51:35:403 Hello 2
+17:51:35:403 Counter1=1
+17:51:35:403 AStrWatch=XXXX
+17:51:35:403 Only show if not called by TestLogClick
+17:51:35:403 Manual exception num#1 raised!°
+             Exception - Manual exception num#1 raised!
+               $0000000000400DD7 line 40 of msgSenderTowardsIPCviewer.pas
+17:51:35:404 Counter1=2
+17:51:35:404 AStrWatch=XXXX
+17:51:35:404 An empty StringList
+              
+17:51:35:404 CounteR1=3
+17:51:35:404 AIntWatch=123
+17:51:35:404 A Text Message
+17:51:35:404 CounTER1=4
+17:51:35:404 Another Text Message
+17:51:35:404 Counter1=3
+17:51:35:404 AIntWatch=321
+17:51:35:404 A Error Message°
+17:51:35:405 Counter1=0
+17:51:35:405 ASTRWatch=YYYY
+17:51:35:405 An Object/Component [$00007EFDBFD053C0]
+object The_Obj_Name: TMyObject
+  Id = 2
+end
+17:51:35:405 °°
+17:51:35:405 MultiLog API `Info` for *debug* purpose°
+17:51:35:405 Counter1=1
+17:51:35:405 AStrWatch=XXXX
+17:51:35:405 MultiLog API `Error` for *debug* purpose°
+17:51:35:405 Counter1=2
+17:51:35:406 Counter1=3
+17:51:35:406 Counter1=4
+17:51:35:406 Counter1=5
+17:51:35:406 Counter1=6
+17:51:35:406    DoIt°
+17:51:35:406       AText inside DoIt
+17:51:35:406       A Warning°
+17:51:35:406       A String = sadjfgadsfbmsandfb
+17:51:35:406       AInteger = 4957
+17:51:35:406       A Boolean = True
+17:51:35:408       A CallStack example
+                     $00000000004AA314 line 981 of multilog.pas
+                     $00000000004012D8 line 87 of msgSenderTowardsIPCviewer.pas
+                     $0000000000400B4D
+17:51:35:408    DoIt°
+17:51:35:408 A StringList
+             aaaaaa
+             bbbbbb
+             cccccc
+17:51:35:408 °°
+17:51:35:408 This Text Should be logged with [lwInfo]
+17:51:35:408 This Text Should be logged with [lwInfo,lwIPC]
+17:51:35:409 Info°
+17:51:35:409 Error°
+17:51:35:409 Warning°
+17:51:35:409 HeapInfo in except..end;
+             All values are in [bytes]:
+             MaxHeapSize: 491,520
+             MaxHeapUsed: 160,576
+             CurrHeapSize: 491,520
+             CurrHeapUsed: 24,768
+             CurrHeapFree: 466,752
+17:51:35:409 Manual exception raised!°
+             Exception - Manual exception raised!
+               $00000000004013C1 line 97 of msgSenderTowardsIPCviewer.pas
+=== Log Session Started at 3-2-20 17:51:39 by msgSenderTowardsIPCviewer ===
+17:51:39:406 Hello 1
+17:51:39:406 Hello 2
+17:51:39:406 Counter1=1
+17:51:39:406 AStrWatch=XXXX
+17:51:39:407 Only show if not called by TestLogClick
+17:51:39:407 Manual exception num#1 raised!°
+             Exception - Manual exception num#1 raised!
+               $0000000000400DD7 line 40 of msgSenderTowardsIPCviewer.pas
+17:51:39:407 Counter1=2
+17:51:39:407 AStrWatch=XXXX
+17:51:39:408 An empty StringList
+              
+17:51:39:408 CounteR1=3
+17:51:39:408 AIntWatch=123
+17:51:39:408 A Text Message
+17:51:39:408 CounTER1=4
+17:51:39:408 Another Text Message
+17:51:39:408 Counter1=3
+17:51:39:408 AIntWatch=321
+17:51:39:409 A Error Message°
+17:51:39:409 Counter1=0
+17:51:39:409 ASTRWatch=YYYY
+17:51:39:409 An Object/Component [$00007FAFB2F173C0]
+object The_Obj_Name: TMyObject
+  Id = 2
+end
+17:51:39:409 °°
+17:51:39:409 MultiLog API `Info` for *debug* purpose°
+17:51:39:409 Counter1=1
+17:51:39:410 AStrWatch=XXXX
+17:51:39:410 MultiLog API `Error` for *debug* purpose°
+17:51:39:410 Counter1=2
+17:51:39:411 Counter1=3
+17:51:39:411 Counter1=4
+17:51:39:411 Counter1=5
+17:51:39:411 Counter1=6
+17:51:39:411    DoIt°
+17:51:39:412       AText inside DoIt
+17:51:39:412       A Warning°
+17:51:39:412       A String = sadjfgadsfbmsandfb
+17:51:39:412       AInteger = 4957
+17:51:39:412       A Boolean = True
+17:51:39:415       A CallStack example
+                     $00000000004AA314 line 981 of multilog.pas
+                     $00000000004012D8 line 87 of msgSenderTowardsIPCviewer.pas
+                     $0000000000400B4D
+17:51:39:415    DoIt°
+17:51:39:415 A StringList
+             aaaaaa
+             bbbbbb
+             cccccc
+17:51:39:415 °°
+17:51:39:415 This Text Should be logged with [lwInfo]
+17:51:39:416 This Text Should be logged with [lwInfo,lwIPC]
+17:51:39:416 Info°
+17:51:39:416 Error°
+17:51:39:416 Warning°
+17:51:39:416 HeapInfo in except..end;
+             All values are in [bytes]:
+             MaxHeapSize: 491,520
+             MaxHeapUsed: 160,576
+             CurrHeapSize: 491,520
+             CurrHeapUsed: 24,768
+             CurrHeapFree: 466,752
+17:51:39:416 Manual exception raised!°
+             Exception - Manual exception raised!
+               $00000000004013C1 line 97 of msgSenderTowardsIPCviewer.pas
+=== Log Session Started at 3-2-20 17:58:18 by msgSenderTowardsIPCviewer ===
+17:58:18:243 Hello 1
+17:58:18:243 Hello 2
+17:58:18:244 Counter1=1
+17:58:18:244 AStrWatch=XXXX
+17:58:18:244 Only show if not called by TestLogClick
+17:58:18:245 Manual exception num#1 raised!°
+             Exception - Manual exception num#1 raised!
+               $0000000000400DD7 line 40 of msgSenderTowardsIPCviewer.pas
+17:58:18:245 Counter1=2
+17:58:18:245 AStrWatch=XXXX
+17:58:18:246 An empty StringList
+              
+17:58:18:246 CounteR1=3
+17:58:18:246 AIntWatch=123
+17:58:18:246 A Text Message
+17:58:18:246 CounTER1=4
+17:58:18:246 Another Text Message
+17:58:18:246 Counter1=3
+17:58:18:246 AIntWatch=321
+17:58:18:247 A Error Message°
+17:58:18:247 Counter1=0
+17:58:18:247 ASTRWatch=YYYY
+17:58:18:247 An Object/Component [$00007FDB46DC33C0]
+object The_Obj_Name: TMyObject
+  Id = 2
+end
+17:58:18:247 °°
+17:58:18:247 MultiLog API `Info` for *debug* purpose°
+17:58:18:247 Counter1=1
+17:58:18:247 AStrWatch=XXXX
+17:58:18:247 MultiLog API `Error` for *debug* purpose°
+17:58:18:248 Counter1=2
+17:58:18:248 Counter1=3
+17:58:18:248 Counter1=4
+17:58:18:248 Counter1=5
+17:58:18:248 Counter1=6
+17:58:18:248    DoIt°
+17:58:18:248       AText inside DoIt
+17:58:18:248       A Warning°
+17:58:18:248       A String = sadjfgadsfbmsandfb
+17:58:18:249       AInteger = 4957
+17:58:18:249       A Boolean = True
+17:58:18:250       A CallStack example
+                     $00000000004AA314 line 981 of multilog.pas
+                     $00000000004012D8 line 87 of msgSenderTowardsIPCviewer.pas
+                     $0000000000400B4D
+17:58:18:251    DoIt°
+17:58:18:251 A StringList
+             aaaaaa
+             bbbbbb
+             cccccc
+17:58:18:251 °°
+17:58:18:251 This Text Should be logged with [lwInfo]
+17:58:18:251 This Text Should be logged with [lwInfo,lwIPC]
+17:58:18:251 Info°
+17:58:18:251 Error°
+17:58:18:251 Warning°
+17:58:18:251 HeapInfo in except..end;
+             All values are in [bytes]:
+             MaxHeapSize: 491,520
+             MaxHeapUsed: 160,576
+             CurrHeapSize: 491,520
+             CurrHeapUsed: 24,768
+             CurrHeapFree: 466,752
+17:58:18:252 Manual exception raised!°
+             Exception - Manual exception raised!
+               $00000000004013C1 line 97 of msgSenderTowardsIPCviewer.pas
+=== Log Session Started at 3-2-20 18:01:10 by msgSenderTowardsIPCviewer ===
+18:01:10:554 Hello 1
+18:01:10:554 Hello 2
+18:01:10:554 Counter1=1
+18:01:10:554 AStrWatch=XXXX
+18:01:10:555 Only show if not called by TestLogClick
+18:01:10:555 Manual exception num#1 raised!°
+             Exception - Manual exception num#1 raised!
+               $0000000000400DD7 line 40 of msgSenderTowardsIPCviewer.pas
+18:01:10:556 Counter1=2
+18:01:10:556 AStrWatch=XXXX
+18:01:10:556 An empty StringList
+              
+18:01:10:556 CounteR1=3
+18:01:10:556 AIntWatch=123
+18:01:10:556 A Text Message
+18:01:10:556 CounTER1=4
+18:01:10:557 Another Text Message
+18:01:10:557 Counter1=3
+18:01:10:557 AIntWatch=321
+18:01:10:557 A Error Message°
+18:01:10:557 Counter1=0
+18:01:10:557 ASTRWatch=YYYY
+18:01:10:557 An Object/Component [$00007FE6615063C0]
+object The_Obj_Name: TMyObject
+  Id = 2
+end
+18:01:10:558 °°
+18:01:10:558 MultiLog API `Info` for *debug* purpose°
+18:01:10:558 Counter1=1
+18:01:10:558 AStrWatch=XXXX
+18:01:10:558 MultiLog API `Error` for *debug* purpose°
+18:01:10:558 Counter1=2
+18:01:10:559 Counter1=3
+18:01:10:559 Counter1=4
+18:01:10:559 Counter1=5
+18:01:10:559 Counter1=6
+18:01:10:559    DoIt°
+18:01:10:559       AText inside DoIt
+18:01:10:559       A Warning°
+18:01:10:559       A String = sadjfgadsfbmsandfb
+18:01:10:560       AInteger = 4957
+18:01:10:560       A Boolean = True
+18:01:10:562       A CallStack example
+                     $00000000004AA314 line 981 of multilog.pas
+                     $00000000004012D8 line 87 of msgSenderTowardsIPCviewer.pas
+                     $0000000000400B4D
+18:01:10:563    DoIt°
+18:01:10:563 A StringList
+             aaaaaa
+             bbbbbb
+             cccccc
+18:01:10:563 °°
+18:01:10:563 This Text Should be logged with [lwInfo]
+18:01:10:563 This Text Should be logged with [lwInfo,lwIPC]
+18:01:10:563 Info°
+18:01:10:563 Error°
+18:01:10:564 Warning°
+18:01:10:564 HeapInfo in except..end;
+             All values are in [bytes]:
+             MaxHeapSize: 491,520
+             MaxHeapUsed: 160,576
+             CurrHeapSize: 491,520
+             CurrHeapUsed: 24,768
+             CurrHeapFree: 466,752
+18:01:10:564 Manual exception raised!°
+             Exception - Manual exception raised!
+               $00000000004013C1 line 97 of msgSenderTowardsIPCviewer.pas
+=== Log Session Started at 3-2-20 18:03:28 by msgSenderTowardsIPCviewer ===
+18:03:28:178 Hello 1
+18:03:28:178 Hello 2
+18:03:28:179 Counter1=1
+18:03:28:179 AStrWatch=XXXX
+18:03:28:179 Only show if not called by TestLogClick
+18:03:28:179 Manual exception num#1 raised!°
+             Exception - Manual exception num#1 raised!
+               $0000000000400DD7 line 40 of msgSenderTowardsIPCviewer.pas
+18:03:28:180 Counter1=2
+18:03:28:180 AStrWatch=XXXX
+18:03:28:180 An empty StringList
+              
+18:03:28:180 CounteR1=3
+18:03:28:180 AIntWatch=123
+18:03:28:180 A Text Message
+18:03:28:181 CounTER1=4
+18:03:28:181 Another Text Message
+18:03:28:181 Counter1=3
+18:03:28:181 AIntWatch=321
+18:03:28:181 A Error Message°
+18:03:28:181 Counter1=0
+18:03:28:181 ASTRWatch=YYYY
+18:03:28:181 An Object/Component [$00007F44AB7013C0]
+object The_Obj_Name: TMyObject
+  Id = 2
+end
+18:03:28:181 °°
+18:03:28:182 MultiLog API `Info` for *debug* purpose°
+18:03:28:182 Counter1=1
+18:03:28:182 AStrWatch=XXXX
+18:03:28:182 MultiLog API `Error` for *debug* purpose°
+18:03:28:182 Counter1=2
+18:03:28:182 Counter1=3
+18:03:28:182 Counter1=4
+18:03:28:182 Counter1=5
+18:03:28:182 Counter1=6
+18:03:28:183    DoIt°
+18:03:28:183       AText inside DoIt
+18:03:28:183       A Warning°
+18:03:28:183       A String = sadjfgadsfbmsandfb
+18:03:28:183       AInteger = 4957
+18:03:28:183       A Boolean = True
+18:03:28:184       A CallStack example
+                     $00000000004AA314 line 981 of multilog.pas
+                     $00000000004012D8 line 87 of msgSenderTowardsIPCviewer.pas
+                     $0000000000400B4D
+18:03:28:185    DoIt°
+18:03:28:185 A StringList
+             aaaaaa
+             bbbbbb
+             cccccc
+18:03:28:185 °°
+18:03:28:185 This Text Should be logged with [lwInfo]
+18:03:28:185 This Text Should be logged with [lwInfo,lwIPC]
+18:03:28:185 Info°
+18:03:28:185 Error°
+18:03:28:185 Warning°
+18:03:28:185 HeapInfo in except..end;
+             All values are in [bytes]:
+             MaxHeapSize: 491,520
+             MaxHeapUsed: 160,576
+             CurrHeapSize: 491,520
+             CurrHeapUsed: 24,768
+             CurrHeapFree: 466,752
+18:03:28:186 Manual exception raised!°
+             Exception - Manual exception raised!
+               $00000000004013C1 line 97 of msgSenderTowardsIPCviewer.pas
+=== Log Session Started at 3-2-20 18:04:03 by msgSenderTowardsIPCviewer ===
+18:04:03:114 Hello 1
+18:04:03:114 Hello 2
+18:04:03:114 Counter1=1
+18:04:03:114 AStrWatch=XXXX
+18:04:03:114 Only show if not called by TestLogClick
+18:04:03:115 Manual exception num#1 raised!°
+             Exception - Manual exception num#1 raised!
+               $0000000000400DD7 line 40 of msgSenderTowardsIPCviewer.pas
+18:04:03:115 Counter1=2
+18:04:03:115 AStrWatch=XXXX
+18:04:03:115 An empty StringList
+              
+18:04:03:115 CounteR1=3
+18:04:03:115 AIntWatch=123
+18:04:03:115 A Text Message
+18:04:03:115 CounTER1=4
+18:04:03:116 Another Text Message
+18:04:03:116 Counter1=3
+18:04:03:116 AIntWatch=321
+18:04:03:116 A Error Message°
+18:04:03:116 Counter1=0
+18:04:03:116 ASTRWatch=YYYY
+18:04:03:116 An Object/Component [$00007FCC7E12F3C0]
+object The_Obj_Name: TMyObject
+  Id = 2
+end
+18:04:03:116 °°
+18:04:03:116 MultiLog API `Info` for *debug* purpose°
+18:04:03:116 Counter1=1
+18:04:03:116 AStrWatch=XXXX
+18:04:03:117 MultiLog API `Error` for *debug* purpose°
+18:04:03:117 Counter1=2
+18:04:03:117 Counter1=3
+18:04:03:117 Counter1=4
+18:04:03:117 Counter1=5
+18:04:03:117 Counter1=6
+18:04:03:117    DoIt°
+18:04:03:117       AText inside DoIt
+18:04:03:117       A Warning°
+18:04:03:117       A String = sadjfgadsfbmsandfb
+18:04:03:117       AInteger = 4957
+18:04:03:118       A Boolean = True
+18:04:03:119       A CallStack example
+                     $00000000004AA314 line 981 of multilog.pas
+                     $00000000004012D8 line 87 of msgSenderTowardsIPCviewer.pas
+                     $0000000000400B4D
+18:04:03:119    DoIt°
+18:04:03:119 A StringList
+             aaaaaa
+             bbbbbb
+             cccccc
+18:04:03:119 °°
+18:04:03:119 This Text Should be logged with [lwInfo]
+18:04:03:119 This Text Should be logged with [lwInfo,lwIPC]
+18:04:03:119 Info°
+18:04:03:120 Error°
+18:04:03:120 Warning°
+18:04:03:120 HeapInfo in except..end;
+             All values are in [bytes]:
+             MaxHeapSize: 491,520
+             MaxHeapUsed: 160,576
+             CurrHeapSize: 491,520
+             CurrHeapUsed: 24,768
+             CurrHeapFree: 466,752
+18:04:03:120 Manual exception raised!°
+             Exception - Manual exception raised!
+               $00000000004013C1 line 97 of msgSenderTowardsIPCviewer.pas
+=== Log Session Started at 3-2-20 18:25:21 by msgSenderTowardsIPCviewer ===
+18:25:21:946 Hello 1
+18:25:21:946 Hello 2
+18:25:21:946 Counter1=1
+18:25:21:947 AStrWatch=XXXX
+18:25:21:947 Only show if not called by TestLogClick
+18:25:21:947 Manual exception num#1 raised!°
+             Exception - Manual exception num#1 raised!
+               $0000000000400DD7 line 40 of msgSenderTowardsIPCviewer.pas
+18:25:21:947 Counter1=2
+18:25:21:948 AStrWatch=XXXX
+18:25:21:948 An empty StringList
+              
+18:25:21:948 CounteR1=3
+18:25:21:948 AIntWatch=123
+18:25:21:948 A Text Message
+18:25:21:948 CounTER1=4
+18:25:21:948 Another Text Message
+18:25:21:949 Counter1=3
+18:25:21:949 AIntWatch=321
+18:25:21:949 A Error Message°
+18:25:21:949 Counter1=0
+18:25:21:949 ASTRWatch=YYYY
+18:25:21:949 An Object/Component [$00007F79A29733C0]
+object The_Obj_Name: TMyObject
+  Id = 2
+end
+18:25:21:950 °°
+18:25:21:950 MultiLog API `Info` for *debug* purpose°
+18:25:21:950 Counter1=1
+18:25:21:950 AStrWatch=XXXX
+18:25:21:950 MultiLog API `Error` for *debug* purpose°
+18:25:21:950 Counter1=2
+18:25:21:950 Counter1=3
+18:25:21:950 Counter1=4
+18:25:21:951 Counter1=5
+18:25:21:951 Counter1=6
+18:25:21:951    DoIt°
+18:25:21:951       AText inside DoIt
+18:25:21:951       A Warning°
+18:25:21:951       A String = sadjfgadsfbmsandfb
+18:25:21:951       AInteger = 4957
+18:25:21:951       A Boolean = True
+18:25:21:954       A CallStack example
+                     $00000000004AA314 line 981 of multilog.pas
+                     $00000000004012D8 line 87 of msgSenderTowardsIPCviewer.pas
+                     $0000000000400B4D
+18:25:21:954    DoIt°
+18:25:21:954 A StringList
+             aaaaaa
+             bbbbbb
+             cccccc
+18:25:21:954 °°
+18:25:21:954 This Text Should be logged with [lwInfo]
+18:25:21:954 This Text Should be logged with [lwInfo,lwIPC]
+18:25:21:954 Info°
+18:25:21:954 Error°
+18:25:21:955 Warning°
+18:25:21:955 HeapInfo in except..end;
+             All values are in [bytes]:
+             MaxHeapSize: 491,520
+             MaxHeapUsed: 160,576
+             CurrHeapSize: 491,520
+             CurrHeapUsed: 24,768
+             CurrHeapFree: 466,752
+18:25:21:955 Manual exception raised!°
+             Exception - Manual exception raised!
+               $00000000004013C1 line 97 of msgSenderTowardsIPCviewer.pas
+=== Log Session Started at 3-2-20 18:52:48 by msgSenderTowardsIPCviewer ===
+18:52:48:149 Hello 1
+18:52:48:150 Hello 2
+18:52:48:150 Counter1=1
+18:52:48:150 AStrWatch=XXXX
+18:52:48:150 Only show if not called by TestLogClick
+18:52:48:150 Manual exception num#1 raised!°
+             Exception - Manual exception num#1 raised!
+               $0000000000400DD7 line 40 of msgSenderTowardsIPCviewer.pas
+18:52:48:151 Counter1=2
+18:52:48:151 AStrWatch=XXXX
+18:52:48:151 An empty StringList
+              
+18:52:48:151 CounteR1=3
+18:52:48:151 AIntWatch=123
+18:52:48:152 A Text Message
+18:52:48:152 CounTER1=4
+18:52:48:152 Another Text Message
+18:52:48:152 Counter1=3
+18:52:48:152 AIntWatch=321
+18:52:48:152 A Error Message°
+18:52:48:152 Counter1=0
+18:52:48:152 ASTRWatch=YYYY
+18:52:48:152 An Object/Component [$00007FBDA228F3C0]
+object The_Obj_Name: TMyObject
+  Id = 2
+end
+18:52:48:153 °°
+18:52:48:153 MultiLog API `Info` for *debug* purpose°
+18:52:48:153 Counter1=1
+18:52:48:153 AStrWatch=XXXX
+18:52:48:153 MultiLog API `Error` for *debug* purpose°
+18:52:48:153 Counter1=2
+18:52:48:153 Counter1=3
+18:52:48:153 Counter1=4
+18:52:48:153 Counter1=5
+18:52:48:153 Counter1=6
+18:52:48:154    DoIt°
+18:52:48:154       AText inside DoIt
+18:52:48:154       A Warning°
+18:52:48:154       A String = sadjfgadsfbmsandfb
+18:52:48:154       AInteger = 4957
+18:52:48:154       A Boolean = True
+18:52:48:156       A CallStack example
+                     $00000000004AA314 line 981 of multilog.pas
+                     $00000000004012D8 line 87 of msgSenderTowardsIPCviewer.pas
+                     $0000000000400B4D
+18:52:48:156    DoIt°
+18:52:48:156 A StringList
+             aaaaaa
+             bbbbbb
+             cccccc
+18:52:48:156 °°
+18:52:48:156 This Text Should be logged with [lwInfo]
+18:52:48:157 This Text Should be logged with [lwInfo,lwIPC]
+18:52:48:157 Info°
+18:52:48:157 Error°
+18:52:48:157 Warning°
+18:52:48:157 HeapInfo in except..end;
+             All values are in [bytes]:
+             MaxHeapSize: 491,520
+             MaxHeapUsed: 160,576
+             CurrHeapSize: 491,520
+             CurrHeapUsed: 24,768
+             CurrHeapFree: 466,752
+18:52:48:157 Manual exception raised!°
+             Exception - Manual exception raised!
+               $00000000004013C1 line 97 of msgSenderTowardsIPCviewer.pas
+=== Log Session Started at 3-2-20 18:53:00 by msgSenderTowardsIPCviewer ===
+18:53:00:608 Hello 1
+18:53:00:608 Hello 2
+18:53:00:609 Counter1=1
+18:53:00:609 AStrWatch=XXXX
+18:53:00:609 Only show if not called by TestLogClick
+18:53:00:610 Manual exception num#1 raised!°
+             Exception - Manual exception num#1 raised!
+               $0000000000400DD7 line 40 of msgSenderTowardsIPCviewer.pas
+18:53:00:610 Counter1=2
+18:53:00:610 AStrWatch=XXXX
+18:53:00:610 An empty StringList
+              
+18:53:00:610 CounteR1=3
+18:53:00:610 AIntWatch=123
+18:53:00:610 A Text Message
+18:53:00:611 CounTER1=4
+18:53:00:611 Another Text Message
+18:53:00:611 Counter1=3
+18:53:00:611 AIntWatch=321
+18:53:00:611 A Error Message°
+18:53:00:611 Counter1=0
+18:53:00:611 ASTRWatch=YYYY
+18:53:00:611 An Object/Component [$00007F789194B3C0]
+object The_Obj_Name: TMyObject
+  Id = 2
+end
+18:53:00:612 °°
+18:53:00:612 MultiLog API `Info` for *debug* purpose°
+18:53:00:612 Counter1=1
+18:53:00:612 AStrWatch=XXXX
+18:53:00:612 MultiLog API `Error` for *debug* purpose°
+18:53:00:612 Counter1=2
+18:53:00:612 Counter1=3
+18:53:00:612 Counter1=4
+18:53:00:612 Counter1=5
+18:53:00:613 Counter1=6
+18:53:00:613    DoIt°
+18:53:00:613       AText inside DoIt
+18:53:00:613       A Warning°
+18:53:00:613       A String = sadjfgadsfbmsandfb
+18:53:00:613       AInteger = 4957
+18:53:00:613       A Boolean = True
+18:53:00:615       A CallStack example
+                     $00000000004AA314 line 981 of multilog.pas
+                     $00000000004012D8 line 87 of msgSenderTowardsIPCviewer.pas
+                     $0000000000400B4D
+18:53:00:615    DoIt°
+18:53:00:615 A StringList
+             aaaaaa
+             bbbbbb
+             cccccc
+18:53:00:616 °°
+18:53:00:616 This Text Should be logged with [lwInfo]
+18:53:00:616 This Text Should be logged with [lwInfo,lwIPC]
+18:53:00:616 Info°
+18:53:00:616 Error°
+18:53:00:616 Warning°
+18:53:00:616 HeapInfo in except..end;
+             All values are in [bytes]:
+             MaxHeapSize: 491,520
+             MaxHeapUsed: 160,576
+             CurrHeapSize: 491,520
+             CurrHeapUsed: 24,768
+             CurrHeapFree: 466,752
+18:53:00:616 Manual exception raised!°
+             Exception - Manual exception raised!
+               $00000000004013C1 line 97 of msgSenderTowardsIPCviewer.pas
+=== Log Session Started at 3-2-20 18:53:37 by msgSenderTowardsIPCviewer ===
+18:53:37:343 Hello 1
+18:53:37:343 Hello 2
+18:53:37:343 Counter1=1
+18:53:37:343 AStrWatch=XXXX
+18:53:37:343 Only show if not called by TestLogClick
+18:53:37:344 Manual exception num#1 raised!°
+             Exception - Manual exception num#1 raised!
+               $0000000000400DD7 line 40 of msgSenderTowardsIPCviewer.pas
+18:53:37:344 Counter1=2
+18:53:37:344 AStrWatch=XXXX
+18:53:37:344 An empty StringList
+              
+18:53:37:344 CounteR1=3
+18:53:37:344 AIntWatch=123
+18:53:37:344 A Text Message
+18:53:37:344 CounTER1=4
+18:53:37:344 Another Text Message
+18:53:37:345 Counter1=3
+18:53:37:345 AIntWatch=321
+18:53:37:345 A Error Message°
+18:53:37:346 Counter1=0
+18:53:37:346 ASTRWatch=YYYY
+18:53:37:347 An Object/Component [$00007F4159B433C0]
+object The_Obj_Name: TMyObject
+  Id = 2
+end
+18:53:37:347 °°
+18:53:37:347 MultiLog API `Info` for *debug* purpose°
+18:53:37:347 Counter1=1
+18:53:37:347 AStrWatch=XXXX
+18:53:37:347 MultiLog API `Error` for *debug* purpose°
+18:53:37:348 Counter1=2
+18:53:37:348 Counter1=3
+18:53:37:348 Counter1=4
+18:53:37:348 Counter1=5
+18:53:37:348 Counter1=6
+18:53:37:348    DoIt°
+18:53:37:348       AText inside DoIt
+18:53:37:348       A Warning°
+18:53:37:349       A String = sadjfgadsfbmsandfb
+18:53:37:349       AInteger = 4957
+18:53:37:349       A Boolean = True
+18:53:37:351       A CallStack example
+                     $00000000004AA314 line 981 of multilog.pas
+                     $00000000004012D8 line 87 of msgSenderTowardsIPCviewer.pas
+                     $0000000000400B4D
+18:53:37:351    DoIt°
+18:53:37:351 A StringList
+             aaaaaa
+             bbbbbb
+             cccccc
+18:53:37:351 °°
+18:53:37:351 This Text Should be logged with [lwInfo]
+18:53:37:351 This Text Should be logged with [lwInfo,lwIPC]
+18:53:37:351 Info°
+18:53:37:351 Error°
+18:53:37:352 Warning°
+18:53:37:352 HeapInfo in except..end;
+             All values are in [bytes]:
+             MaxHeapSize: 491,520
+             MaxHeapUsed: 160,576
+             CurrHeapSize: 491,520
+             CurrHeapUsed: 24,768
+             CurrHeapFree: 466,752
+18:53:37:352 Manual exception raised!°
+             Exception - Manual exception raised!
+               $00000000004013C1 line 97 of msgSenderTowardsIPCviewer.pas
+=== Log Session Started at 3-2-20 18:53:49 by msgSenderTowardsIPCviewer ===
+18:53:49:646 Hello 1
+18:53:49:647 Hello 2
+18:53:49:647 Counter1=1
+18:53:49:647 AStrWatch=XXXX
+18:53:49:647 Only show if not called by TestLogClick
+18:53:49:647 Manual exception num#1 raised!°
+             Exception - Manual exception num#1 raised!
+               $0000000000400DD7 line 40 of msgSenderTowardsIPCviewer.pas
+18:53:49:648 Counter1=2
+18:53:49:648 AStrWatch=XXXX
+18:53:49:648 An empty StringList
+              
+18:53:49:648 CounteR1=3
+18:53:49:648 AIntWatch=123
+18:53:49:648 A Text Message
+18:53:49:649 CounTER1=4
+18:53:49:649 Another Text Message
+18:53:49:649 Counter1=3
+18:53:49:649 AIntWatch=321
+18:53:49:649 A Error Message°
+18:53:49:649 Counter1=0
+18:53:49:650 ASTRWatch=YYYY
+18:53:49:650 An Object/Component [$00007F57B13FA3C0]
+object The_Obj_Name: TMyObject
+  Id = 2
+end
+18:53:49:650 °°
+18:53:49:650 MultiLog API `Info` for *debug* purpose°
+18:53:49:650 Counter1=1
+18:53:49:650 AStrWatch=XXXX
+18:53:49:650 MultiLog API `Error` for *debug* purpose°
+18:53:49:650 Counter1=2
+18:53:49:650 Counter1=3
+18:53:49:650 Counter1=4
+18:53:49:651 Counter1=5
+18:53:49:651 Counter1=6
+18:53:49:651    DoIt°
+18:53:49:651       AText inside DoIt
+18:53:49:651       A Warning°
+18:53:49:651       A String = sadjfgadsfbmsandfb
+18:53:49:651       AInteger = 4957
+18:53:49:651       A Boolean = True
+18:53:49:653       A CallStack example
+                     $00000000004AA314 line 981 of multilog.pas
+                     $00000000004012D8 line 87 of msgSenderTowardsIPCviewer.pas
+                     $0000000000400B4D
+18:53:49:654    DoIt°
+18:53:49:654 A StringList
+             aaaaaa
+             bbbbbb
+             cccccc
+18:53:49:654 °°
+18:53:49:654 This Text Should be logged with [lwInfo]
+18:53:49:654 This Text Should be logged with [lwInfo,lwIPC]
+18:53:49:654 Info°
+18:53:49:654 Error°
+18:53:49:654 Warning°
+18:53:49:654 HeapInfo in except..end;
+             All values are in [bytes]:
+             MaxHeapSize: 491,520
+             MaxHeapUsed: 160,576
+             CurrHeapSize: 491,520
+             CurrHeapUsed: 24,768
+             CurrHeapFree: 466,752
+18:53:49:655 Manual exception raised!°
+             Exception - Manual exception raised!
+               $00000000004013C1 line 97 of msgSenderTowardsIPCviewer.pas
+=== Log Session Started at 3-2-20 19:10:47 by msgSenderTowardsIPCviewer ===
+19:10:47:763 Hello 1
+19:10:47:763 Hello 2
+19:10:47:763 Counter1=1
+19:10:47:763 AStrWatch=XXXX
+19:10:47:763 Only show if not called by TestLogClick
+19:10:47:764 Manual exception num#1 raised!°
+             Exception - Manual exception num#1 raised!
+               $0000000000400DD7 line 40 of msgSenderTowardsIPCviewer.pas
+19:10:47:764 Counter1=2
+19:10:47:764 AStrWatch=XXXX
+19:10:47:764 An empty StringList
+              
+19:10:47:764 CounteR1=3
+19:10:47:764 AIntWatch=123
+19:10:47:764 A Text Message
+19:10:47:764 CounTER1=4
+19:10:47:764 Another Text Message
+19:10:47:764 Counter1=3
+19:10:47:765 AIntWatch=321
+19:10:47:765 A Error Message°
+19:10:47:765 Counter1=0
+19:10:47:765 ASTRWatch=YYYY
+19:10:47:765 An Object/Component [$00007F69C3F533C0]
+object The_Obj_Name: TMyObject
+  Id = 2
+end
+19:10:47:765 °°
+19:10:47:765 MultiLog API `Info` for *debug* purpose°
+19:10:47:765 Counter1=1
+19:10:47:765 AStrWatch=XXXX
+19:10:47:765 MultiLog API `Error` for *debug* purpose°
+19:10:47:765 Counter1=2
+19:10:47:765 Counter1=3
+19:10:47:765 Counter1=4
+19:10:47:765 Counter1=5
+19:10:47:765 Counter1=6
+19:10:47:766    DoIt°
+19:10:47:766       AText inside DoIt
+19:10:47:766       A Warning°
+19:10:47:766       A String = sadjfgadsfbmsandfb
+19:10:47:766       AInteger = 4957
+19:10:47:766       A Boolean = True
+19:10:47:767       A CallStack example
+                     $00000000004AA314 line 981 of multilog.pas
+                     $00000000004012D8 line 87 of msgSenderTowardsIPCviewer.pas
+                     $0000000000400B4D
+19:10:47:768    DoIt°
+19:10:47:768 A StringList
+             aaaaaa
+             bbbbbb
+             cccccc
+19:10:47:768 °°
+19:10:47:768 This Text Should be logged with [lwInfo]
+19:10:47:768 This Text Should be logged with [lwInfo,lwIPC]
+19:10:47:768 Info°
+19:10:47:768 Error°
+19:10:47:768 Warning°
+19:10:47:768 HeapInfo in except..end;
+             All values are in [bytes]:
+             MaxHeapSize: 491,520
+             MaxHeapUsed: 28,288
+             CurrHeapSize: 491,520
+             CurrHeapUsed: 19,936
+             CurrHeapFree: 471,584
+19:10:47:768 Manual exception raised!°
+             Exception - Manual exception raised!
+               $00000000004013C1 line 97 of msgSenderTowardsIPCviewer.pas
+=== Log Session Started at 3-2-20 19:10:57 by msgSenderTowardsIPCviewer ===
+19:10:57:707 Hello 1
+19:10:57:707 Hello 2
+19:10:57:707 Counter1=1
+19:10:57:707 AStrWatch=XXXX
+19:10:57:707 Only show if not called by TestLogClick
+19:10:57:707 Manual exception num#1 raised!°
+             Exception - Manual exception num#1 raised!
+               $0000000000400DD7 line 40 of msgSenderTowardsIPCviewer.pas
+19:10:57:707 Counter1=2
+19:10:57:707 AStrWatch=XXXX
+19:10:57:708 An empty StringList
+              
+19:10:57:708 CounteR1=3
+19:10:57:708 AIntWatch=123
+19:10:57:708 A Text Message
+19:10:57:708 CounTER1=4
+19:10:57:708 Another Text Message
+19:10:57:708 Counter1=3
+19:10:57:708 AIntWatch=321
+19:10:57:708 A Error Message°
+19:10:57:708 Counter1=0
+19:10:57:708 ASTRWatch=YYYY
+19:10:57:708 An Object/Component [$00007F5E0E9A43C0]
+object The_Obj_Name: TMyObject
+  Id = 2
+end
+19:10:57:708 °°
+19:10:57:708 MultiLog API `Info` for *debug* purpose°
+19:10:57:708 Counter1=1
+19:10:57:708 AStrWatch=XXXX
+19:10:57:709 MultiLog API `Error` for *debug* purpose°
+19:10:57:709 Counter1=2
+19:10:57:709 Counter1=3
+19:10:57:709 Counter1=4
+19:10:57:709 Counter1=5
+19:10:57:709 Counter1=6
+19:10:57:709    DoIt°
+19:10:57:709       AText inside DoIt
+19:10:57:709       A Warning°
+19:10:57:709       A String = sadjfgadsfbmsandfb
+19:10:57:709       AInteger = 4957
+19:10:57:709       A Boolean = True
+19:10:57:711       A CallStack example
+                     $00000000004AA314 line 981 of multilog.pas
+                     $00000000004012D8 line 87 of msgSenderTowardsIPCviewer.pas
+                     $0000000000400B4D
+19:10:57:712    DoIt°
+19:10:57:712 A StringList
+             aaaaaa
+             bbbbbb
+             cccccc
+19:10:57:712 °°
+19:10:57:712 This Text Should be logged with [lwInfo]
+19:10:57:712 This Text Should be logged with [lwInfo,lwIPC]
+19:10:57:712 Info°
+19:10:57:712 Error°
+19:10:57:712 Warning°
+19:10:57:712 HeapInfo in except..end;
+             All values are in [bytes]:
+             MaxHeapSize: 491,520
+             MaxHeapUsed: 28,288
+             CurrHeapSize: 491,520
+             CurrHeapUsed: 19,936
+             CurrHeapFree: 471,584
+19:10:57:712 Manual exception raised!°
+             Exception - Manual exception raised!
+               $00000000004013C1 line 97 of msgSenderTowardsIPCviewer.pas
+=== Log Session Started at 3-2-20 19:15:30 by msgSenderTowardsIPCviewer ===
+19:15:30:104 Hello 1
+19:15:30:104 Hello 2
+19:15:30:104 Counter1=1
+19:15:30:104 AStrWatch=XXXX
+19:15:30:105 Only show if not called by TestLogClick
+19:15:30:105 Manual exception num#1 raised!°
+             Exception - Manual exception num#1 raised!
+               $0000000000400DD7 line 40 of msgSenderTowardsIPCviewer.pas
+19:15:30:105 Counter1=2
+19:15:30:105 AStrWatch=XXXX
+19:15:30:105 An empty StringList
+              
+19:15:30:105 CounteR1=3
+19:15:30:106 AIntWatch=123
+19:15:30:106 A Text Message
+19:15:30:106 CounTER1=4
+19:15:30:106 Another Text Message
+19:15:30:106 Counter1=3
+19:15:30:106 AIntWatch=321
+19:15:30:106 A Error Message°
+19:15:30:106 Counter1=0
+19:15:30:106 ASTRWatch=YYYY
+19:15:30:106 An Object/Component [$00007F3D9CBD23C0]
+object The_Obj_Name: TMyObject
+  Id = 2
+end
+19:15:30:106 °°
+19:15:30:107 MultiLog API `Info` for *debug* purpose°
+19:15:30:107 Counter1=1
+19:15:30:107 AStrWatch=XXXX
+19:15:30:107 MultiLog API `Error` for *debug* purpose°
+19:15:30:107 Counter1=2
+19:15:30:107 Counter1=3
+19:15:30:107 Counter1=4
+19:15:30:107 Counter1=5
+19:15:30:107 Counter1=6
+19:15:30:107    DoIt°
+19:15:30:107       AText inside DoIt
+19:15:30:107       A Warning°
+19:15:30:107       A String = sadjfgadsfbmsandfb
+19:15:30:108       AInteger = 4957
+19:15:30:108       A Boolean = True
+19:15:30:109       A CallStack example
+                     $00000000004AA314 line 981 of multilog.pas
+                     $00000000004012D8 line 87 of msgSenderTowardsIPCviewer.pas
+                     $0000000000400B4D
+19:15:30:110    DoIt°
+19:15:30:110 A StringList
+             aaaaaa
+             bbbbbb
+             cccccc
+19:15:30:110 °°
+19:15:30:110 This Text Should be logged with [lwInfo]
+19:15:30:110 This Text Should be logged with [lwInfo,lwIPC]
+19:15:30:110 Info°
+19:15:30:110 Error°
+19:15:30:110 Warning°
+19:15:30:110 HeapInfo in except..end;
+             All values are in [bytes]:
+             MaxHeapSize: 491,520
+             MaxHeapUsed: 160,576
+             CurrHeapSize: 491,520
+             CurrHeapUsed: 24,768
+             CurrHeapFree: 466,752
+19:15:30:111 Manual exception raised!°
+             Exception - Manual exception raised!
+               $00000000004013C1 line 97 of msgSenderTowardsIPCviewer.pas
+=== Log Session Started at 3-2-20 19:15:58 by msgSenderTowardsIPCviewer ===
+19:15:58:665 Hello 1
+19:15:58:665 Hello 2
+19:15:58:665 Counter1=1
+19:15:58:665 AStrWatch=XXXX
+19:15:58:666 Only show if not called by TestLogClick
+19:15:58:666 Manual exception num#1 raised!°
+             Exception - Manual exception num#1 raised!
+               $0000000000400DD7 line 40 of msgSenderTowardsIPCviewer.pas
+19:15:58:666 Counter1=2
+19:15:58:666 AStrWatch=XXXX
+19:15:58:666 An empty StringList
+              
+19:15:58:666 CounteR1=3
+19:15:58:666 AIntWatch=123
+19:15:58:666 A Text Message
+19:15:58:667 CounTER1=4
+19:15:58:667 Another Text Message
+19:15:58:667 Counter1=3
+19:15:58:667 AIntWatch=321
+19:15:58:667 A Error Message°
+19:15:58:667 Counter1=0
+19:15:58:667 ASTRWatch=YYYY
+19:15:58:667 An Object/Component [$00007FE2969EE3C0]
+object The_Obj_Name: TMyObject
+  Id = 2
+end
+19:15:58:668 °°
+19:15:58:668 MultiLog API `Info` for *debug* purpose°
+19:15:58:668 Counter1=1
+19:15:58:668 AStrWatch=XXXX
+19:15:58:668 MultiLog API `Error` for *debug* purpose°
+19:15:58:668 Counter1=2
+19:15:58:668 Counter1=3
+19:15:58:668 Counter1=4
+19:15:58:668 Counter1=5
+19:15:58:669 Counter1=6
+19:15:58:669    DoIt°
+19:15:58:669       AText inside DoIt
+19:15:58:669       A Warning°
+19:15:58:669       A String = sadjfgadsfbmsandfb
+19:15:58:669       AInteger = 4957
+19:15:58:669       A Boolean = True
+19:15:58:671       A CallStack example
+                     $00000000004AA314 line 981 of multilog.pas
+                     $00000000004012D8 line 87 of msgSenderTowardsIPCviewer.pas
+                     $0000000000400B4D
+19:15:58:671    DoIt°
+19:15:58:671 A StringList
+             aaaaaa
+             bbbbbb
+             cccccc
+19:15:58:671 °°
+19:15:58:671 This Text Should be logged with [lwInfo]
+19:15:58:671 This Text Should be logged with [lwInfo,lwIPC]
+19:15:58:671 Info°
+19:15:58:672 Error°
+19:15:58:672 Warning°
+19:15:58:672 HeapInfo in except..end;
+             All values are in [bytes]:
+             MaxHeapSize: 491,520
+             MaxHeapUsed: 160,576
+             CurrHeapSize: 491,520
+             CurrHeapUsed: 24,768
+             CurrHeapFree: 466,752
+19:15:58:672 Manual exception raised!°
+             Exception - Manual exception raised!
+               $00000000004013C1 line 97 of msgSenderTowardsIPCviewer.pas
+=== Log Session Started at 3-2-20 19:16:02 by msgSenderTowardsIPCviewer ===
+19:16:02:483 Hello 1
+19:16:02:483 Hello 2
+19:16:02:483 Counter1=1
+19:16:02:483 AStrWatch=XXXX
+19:16:02:483 Only show if not called by TestLogClick
+19:16:02:484 Manual exception num#1 raised!°
+             Exception - Manual exception num#1 raised!
+               $0000000000400DD7 line 40 of msgSenderTowardsIPCviewer.pas
+19:16:02:484 Counter1=2
+19:16:02:484 AStrWatch=XXXX
+19:16:02:484 An empty StringList
+              
+19:16:02:484 CounteR1=3
+19:16:02:484 AIntWatch=123
+19:16:02:484 A Text Message
+19:16:02:484 CounTER1=4
+19:16:02:485 Another Text Message
+19:16:02:485 Counter1=3
+19:16:02:485 AIntWatch=321
+19:16:02:485 A Error Message°
+19:16:02:485 Counter1=0
+19:16:02:485 ASTRWatch=YYYY
+19:16:02:485 An Object/Component [$00007FDAE96D83C0]
+object The_Obj_Name: TMyObject
+  Id = 2
+end
+19:16:02:485 °°
+19:16:02:485 MultiLog API `Info` for *debug* purpose°
+19:16:02:486 Counter1=1
+19:16:02:486 AStrWatch=XXXX
+19:16:02:486 MultiLog API `Error` for *debug* purpose°
+19:16:02:486 Counter1=2
+19:16:02:486 Counter1=3
+19:16:02:486 Counter1=4
+19:16:02:486 Counter1=5
+19:16:02:486 Counter1=6
+19:16:02:486    DoIt°
+19:16:02:486       AText inside DoIt
+19:16:02:486       A Warning°
+19:16:02:487       A String = sadjfgadsfbmsandfb
+19:16:02:487       AInteger = 4957
+19:16:02:487       A Boolean = True
+19:16:02:489       A CallStack example
+                     $00000000004AA314 line 981 of multilog.pas
+                     $00000000004012D8 line 87 of msgSenderTowardsIPCviewer.pas
+                     $0000000000400B4D
+19:16:02:489    DoIt°
+19:16:02:489 A StringList
+             aaaaaa
+             bbbbbb
+             cccccc
+19:16:02:489 °°
+19:16:02:489 This Text Should be logged with [lwInfo]
+19:16:02:489 This Text Should be logged with [lwInfo,lwIPC]
+19:16:02:489 Info°
+19:16:02:489 Error°
+19:16:02:490 Warning°
+19:16:02:490 HeapInfo in except..end;
+             All values are in [bytes]:
+             MaxHeapSize: 491,520
+             MaxHeapUsed: 160,576
+             CurrHeapSize: 491,520
+             CurrHeapUsed: 24,768
+             CurrHeapFree: 466,752
+19:16:02:490 Manual exception raised!°
+             Exception - Manual exception raised!
+               $00000000004013C1 line 97 of msgSenderTowardsIPCviewer.pas
+=== Log Session Started at 3-2-20 19:16:12 by msgSenderTowardsIPCviewer ===
+19:16:12:413 Hello 1
+19:16:12:413 Hello 2
+19:16:12:413 Counter1=1
+19:16:12:413 AStrWatch=XXXX
+19:16:12:413 Only show if not called by TestLogClick
+19:16:12:414 Manual exception num#1 raised!°
+             Exception - Manual exception num#1 raised!
+               $0000000000400DD7 line 40 of msgSenderTowardsIPCviewer.pas
+19:16:12:414 Counter1=2
+19:16:12:414 AStrWatch=XXXX
+19:16:12:414 An empty StringList
+              
+19:16:12:415 CounteR1=3
+19:16:12:415 AIntWatch=123
+19:16:12:415 A Text Message
+19:16:12:415 CounTER1=4
+19:16:12:415 Another Text Message
+19:16:12:415 Counter1=3
+19:16:12:415 AIntWatch=321
+19:16:12:415 A Error Message°
+19:16:12:416 Counter1=0
+19:16:12:416 ASTRWatch=YYYY
+19:16:12:416 An Object/Component [$00007FDCC969A3C0]
+object The_Obj_Name: TMyObject
+  Id = 2
+end
+19:16:12:416 °°
+19:16:12:416 MultiLog API `Info` for *debug* purpose°
+19:16:12:416 Counter1=1
+19:16:12:416 AStrWatch=XXXX
+19:16:12:416 MultiLog API `Error` for *debug* purpose°
+19:16:12:416 Counter1=2
+19:16:12:417 Counter1=3
+19:16:12:417 Counter1=4
+19:16:12:417 Counter1=5
+19:16:12:417 Counter1=6
+19:16:12:417    DoIt°
+19:16:12:417       AText inside DoIt
+19:16:12:417       A Warning°
+19:16:12:417       A String = sadjfgadsfbmsandfb
+19:16:12:417       AInteger = 4957
+19:16:12:417       A Boolean = True
+19:16:12:419       A CallStack example
+                     $00000000004AA314 line 981 of multilog.pas
+                     $00000000004012D8 line 87 of msgSenderTowardsIPCviewer.pas
+                     $0000000000400B4D
+19:16:12:420    DoIt°
+19:16:12:420 A StringList
+             aaaaaa
+             bbbbbb
+             cccccc
+19:16:12:420 °°
+19:16:12:420 This Text Should be logged with [lwInfo]
+19:16:12:420 This Text Should be logged with [lwInfo,lwIPC]
+19:16:12:420 Info°
+19:16:12:420 Error°
+19:16:12:420 Warning°
+19:16:12:420 HeapInfo in except..end;
+             All values are in [bytes]:
+             MaxHeapSize: 491,520
+             MaxHeapUsed: 160,576
+             CurrHeapSize: 491,520
+             CurrHeapUsed: 24,768
+             CurrHeapFree: 466,752
+19:16:12:421 Manual exception raised!°
+             Exception - Manual exception raised!
+               $00000000004013C1 line 97 of msgSenderTowardsIPCviewer.pas
+=== Log Session Started at 4-2-20 10:34:57 by msgSenderTowardsIPCviewer ===
+10:34:57:737 Hello 1
+10:34:57:737 Hello 2
+10:34:57:737 Counter1=1
+10:34:57:738 AStrWatch=XXXX
+10:34:57:738 Only show if not called by TestLogClick
+10:34:57:751 Manual exception num#1 raised!°
+             Exception - Manual exception num#1 raised!
+               $0000000000400DD7 line 40 of msgSenderTowardsIPCviewer.pas
+10:34:57:751 Counter1=2
+10:34:57:751 AStrWatch=XXXX
+10:34:57:751 An empty StringList
+              
+10:34:57:751 CounteR1=3
+10:34:57:751 AIntWatch=123
+10:34:57:751 A Text Message
+10:34:57:751 CounTER1=4
+10:34:57:751 Another Text Message
+10:34:57:751 Counter1=3
+10:34:57:751 AIntWatch=321
+10:34:57:752 A Error Message°
+10:34:57:752 Counter1=0
+10:34:57:752 ASTRWatch=YYYY
+10:34:57:752 An Object/Component [$00007FC5186673C0]
+object The_Obj_Name: TMyObject
+  Id = 2
+end
+10:34:57:752 °°
+10:34:57:752 MultiLog API `Info` for *debug* purpose°
+10:34:57:752 Counter1=1
+10:34:57:752 AStrWatch=XXXX
+10:34:57:752 MultiLog API `Error` for *debug* purpose°
+10:34:57:752 Counter1=2
+10:34:57:752 Counter1=3
+10:34:57:752 Counter1=4
+10:34:57:752 Counter1=5
+10:34:57:752 Counter1=6
+10:34:57:752    DoIt°
+10:34:57:752       AText inside DoIt
+10:34:57:753       A Warning°
+10:34:57:753       A String = sadjfgadsfbmsandfb
+10:34:57:753       AInteger = 4957
+10:34:57:753       A Boolean = True
+10:34:57:755       A CallStack example
+                     $00000000004AA314 line 981 of multilog.pas
+                     $00000000004012D8 line 87 of msgSenderTowardsIPCviewer.pas
+                     $0000000000400B4D
+10:34:57:755    DoIt°
+10:34:57:756 A StringList
+             aaaaaa
+             bbbbbb
+             cccccc
+10:34:57:756 °°
+10:34:57:756 This Text Should be logged with [lwInfo]
+10:34:57:756 This Text Should be logged with [lwInfo,lwIPC]
+10:34:57:756 Info°
+10:34:57:756 Error°
+10:34:57:756 Warning°
+10:34:57:756 HeapInfo in except..end;
+             All values are in [bytes]:
+             MaxHeapSize: 491,520
+             MaxHeapUsed: 28,288
+             CurrHeapSize: 491,520
+             CurrHeapUsed: 19,936
+             CurrHeapFree: 471,584
+10:34:57:756 Manual exception raised!°
+             Exception - Manual exception raised!
+               $00000000004013C1 line 97 of msgSenderTowardsIPCviewer.pas
+=== Log Session Started at 4-2-20 10:35:14 by msgSenderTowardsIPCviewer ===
+10:35:14:701 Hello 1
+10:35:14:702 Hello 2
+10:35:14:702 Counter1=1
+10:35:14:702 AStrWatch=XXXX
+10:35:14:702 Only show if not called by TestLogClick
+10:35:14:702 Manual exception num#1 raised!°
+             Exception - Manual exception num#1 raised!
+               $0000000000400DD7 line 40 of msgSenderTowardsIPCviewer.pas
+10:35:14:702 Counter1=2
+10:35:14:702 AStrWatch=XXXX
+10:35:14:702 An empty StringList
+              
+10:35:14:702 CounteR1=3
+10:35:14:703 AIntWatch=123
+10:35:14:703 A Text Message
+10:35:14:703 CounTER1=4
+10:35:14:703 Another Text Message
+10:35:14:703 Counter1=3
+10:35:14:703 AIntWatch=321
+10:35:14:703 A Error Message°
+10:35:14:703 Counter1=0
+10:35:14:703 ASTRWatch=YYYY
+10:35:14:703 An Object/Component [$00007FA7ADC343C0]
+object The_Obj_Name: TMyObject
+  Id = 2
+end
+10:35:14:704 °°
+10:35:14:704 MultiLog API `Info` for *debug* purpose°
+10:35:14:704 Counter1=1
+10:35:14:704 AStrWatch=XXXX
+10:35:14:704 MultiLog API `Error` for *debug* purpose°
+10:35:14:704 Counter1=2
+10:35:14:704 Counter1=3
+10:35:14:704 Counter1=4
+10:35:14:704 Counter1=5
+10:35:14:704 Counter1=6
+10:35:14:704    DoIt°
+10:35:14:704       AText inside DoIt
+10:35:14:704       A Warning°
+10:35:14:704       A String = sadjfgadsfbmsandfb
+10:35:14:704       AInteger = 4957
+10:35:14:704       A Boolean = True
+10:35:14:706       A CallStack example
+                     $00000000004AA314 line 981 of multilog.pas
+                     $00000000004012D8 line 87 of msgSenderTowardsIPCviewer.pas
+                     $0000000000400B4D
+10:35:14:706    DoIt°
+10:35:14:707 A StringList
+             aaaaaa
+             bbbbbb
+             cccccc
+10:35:14:707 °°
+10:35:14:707 This Text Should be logged with [lwInfo]
+10:35:14:707 This Text Should be logged with [lwInfo,lwIPC]
+10:35:14:707 Info°
+10:35:14:707 Error°
+10:35:14:707 Warning°
+10:35:14:707 HeapInfo in except..end;
+             All values are in [bytes]:
+             MaxHeapSize: 491,520
+             MaxHeapUsed: 28,288
+             CurrHeapSize: 491,520
+             CurrHeapUsed: 19,936
+             CurrHeapFree: 471,584
+10:35:14:707 Manual exception raised!°
+             Exception - Manual exception raised!
+               $00000000004013C1 line 97 of msgSenderTowardsIPCviewer.pas
+=== Log Session Started at 4-2-20 10:35:18 by msgSenderTowardsIPCviewer ===
+10:35:18:786 Hello 1
+10:35:18:786 Hello 2
+10:35:18:786 Counter1=1
+10:35:18:786 AStrWatch=XXXX
+10:35:18:786 Only show if not called by TestLogClick
+10:35:18:787 Manual exception num#1 raised!°
+             Exception - Manual exception num#1 raised!
+               $0000000000400DD7 line 40 of msgSenderTowardsIPCviewer.pas
+10:35:18:787 Counter1=2
+10:35:18:787 AStrWatch=XXXX
+10:35:18:787 An empty StringList
+              
+10:35:18:787 CounteR1=3
+10:35:18:787 AIntWatch=123
+10:35:18:787 A Text Message
+10:35:18:787 CounTER1=4
+10:35:18:787 Another Text Message
+10:35:18:787 Counter1=3
+10:35:18:788 AIntWatch=321
+10:35:18:788 A Error Message°
+10:35:18:788 Counter1=0
+10:35:18:788 ASTRWatch=YYYY
+10:35:18:788 An Object/Component [$00007F07667B03C0]
+object The_Obj_Name: TMyObject
+  Id = 2
+end
+10:35:18:788 °°
+10:35:18:788 MultiLog API `Info` for *debug* purpose°
+10:35:18:788 Counter1=1
+10:35:18:788 AStrWatch=XXXX
+10:35:18:788 MultiLog API `Error` for *debug* purpose°
+10:35:18:788 Counter1=2
+10:35:18:788 Counter1=3
+10:35:18:788 Counter1=4
+10:35:18:788 Counter1=5
+10:35:18:788 Counter1=6
+10:35:18:788    DoIt°
+10:35:18:788       AText inside DoIt
+10:35:18:789       A Warning°
+10:35:18:789       A String = sadjfgadsfbmsandfb
+10:35:18:789       AInteger = 4957
+10:35:18:789       A Boolean = True
+10:35:18:790       A CallStack example
+                     $00000000004AA314 line 981 of multilog.pas
+                     $00000000004012D8 line 87 of msgSenderTowardsIPCviewer.pas
+                     $0000000000400B4D
+10:35:18:790    DoIt°
+10:35:18:790 A StringList
+             aaaaaa
+             bbbbbb
+             cccccc
+10:35:18:791 °°
+10:35:18:791 This Text Should be logged with [lwInfo]
+10:35:18:791 This Text Should be logged with [lwInfo,lwIPC]
+10:35:18:791 Info°
+10:35:18:791 Error°
+10:35:18:791 Warning°
+10:35:18:791 HeapInfo in except..end;
+             All values are in [bytes]:
+             MaxHeapSize: 491,520
+             MaxHeapUsed: 28,288
+             CurrHeapSize: 491,520
+             CurrHeapUsed: 19,936
+             CurrHeapFree: 471,584
+10:35:18:791 Manual exception raised!°
+             Exception - Manual exception raised!
+               $00000000004013C1 line 97 of msgSenderTowardsIPCviewer.pas
+=== Log Session Started at 4-2-20 10:36:01 by msgSenderTowardsIPCviewer ===
+10:36:01:594 Hello 1
+10:36:01:595 Hello 2
+10:36:01:595 Counter1=1
+10:36:01:595 AStrWatch=XXXX
+10:36:01:595 Only show if not called by TestLogClick
+10:36:01:595 Manual exception num#1 raised!°
+             Exception - Manual exception num#1 raised!
+               $0000000000400DD7 line 40 of msgSenderTowardsIPCviewer.pas
+10:36:01:596 Counter1=2
+10:36:01:596 AStrWatch=XXXX
+10:36:01:596 An empty StringList
+              
+10:36:01:596 CounteR1=3
+10:36:01:596 AIntWatch=123
+10:36:01:596 A Text Message
+10:36:01:596 CounTER1=4
+10:36:01:596 Another Text Message
+10:36:01:596 Counter1=3
+10:36:01:597 AIntWatch=321
+10:36:01:597 A Error Message°
+10:36:01:597 Counter1=0
+10:36:01:597 ASTRWatch=YYYY
+10:36:01:597 An Object/Component [$00007F4EEF0223C0]
+object The_Obj_Name: TMyObject
+  Id = 2
+end
+10:36:01:597 °°
+10:36:01:597 MultiLog API `Info` for *debug* purpose°
+10:36:01:597 Counter1=1
+10:36:01:598 AStrWatch=XXXX
+10:36:01:598 MultiLog API `Error` for *debug* purpose°
+10:36:01:598 Counter1=2
+10:36:01:598 Counter1=3
+10:36:01:598 Counter1=4
+10:36:01:598 Counter1=5
+10:36:01:598 Counter1=6
+10:36:01:598    DoIt°
+10:36:01:598       AText inside DoIt
+10:36:01:599       A Warning°
+10:36:01:599       A String = sadjfgadsfbmsandfb
+10:36:01:599       AInteger = 4957
+10:36:01:599       A Boolean = True
+10:36:01:601       A CallStack example
+                     $00000000004AA314 line 981 of multilog.pas
+                     $00000000004012D8 line 87 of msgSenderTowardsIPCviewer.pas
+                     $0000000000400B4D
+10:36:01:601    DoIt°
+10:36:01:601 A StringList
+             aaaaaa
+             bbbbbb
+             cccccc
+10:36:01:601 °°
+10:36:01:601 This Text Should be logged with [lwInfo]
+10:36:01:601 This Text Should be logged with [lwInfo,lwIPC]
+10:36:01:601 Info°
+10:36:01:601 Error°
+10:36:01:602 Warning°
+10:36:01:602 HeapInfo in except..end;
+             All values are in [bytes]:
+             MaxHeapSize: 491,520
+             MaxHeapUsed: 160,576
+             CurrHeapSize: 491,520
+             CurrHeapUsed: 24,768
+             CurrHeapFree: 466,752
+10:36:01:602 Manual exception raised!°
+             Exception - Manual exception raised!
+               $00000000004013C1 line 97 of msgSenderTowardsIPCviewer.pas
+=== Log Session Started at 4-2-20 10:36:12 by msgSenderTowardsIPCviewer ===
+10:36:12:176 Hello 1
+10:36:12:176 Hello 2
+10:36:12:176 Counter1=1
+10:36:12:177 AStrWatch=XXXX
+10:36:12:177 Only show if not called by TestLogClick
+10:36:12:177 Manual exception num#1 raised!°
+             Exception - Manual exception num#1 raised!
+               $0000000000400DD7 line 40 of msgSenderTowardsIPCviewer.pas
+10:36:12:177 Counter1=2
+10:36:12:177 AStrWatch=XXXX
+10:36:12:177 An empty StringList
+              
+10:36:12:177 CounteR1=3
+10:36:12:177 AIntWatch=123
+10:36:12:178 A Text Message
+10:36:12:178 CounTER1=4
+10:36:12:178 Another Text Message
+10:36:12:178 Counter1=3
+10:36:12:178 AIntWatch=321
+10:36:12:178 A Error Message°
+10:36:12:178 Counter1=0
+10:36:12:178 ASTRWatch=YYYY
+10:36:12:178 An Object/Component [$00007FDE516C93C0]
+object The_Obj_Name: TMyObject
+  Id = 2
+end
+10:36:12:178 °°
+10:36:12:178 MultiLog API `Info` for *debug* purpose°
+10:36:12:179 Counter1=1
+10:36:12:179 AStrWatch=XXXX
+10:36:12:179 MultiLog API `Error` for *debug* purpose°
+10:36:12:179 Counter1=2
+10:36:12:179 Counter1=3
+10:36:12:179 Counter1=4
+10:36:12:179 Counter1=5
+10:36:12:179 Counter1=6
+10:36:12:179    DoIt°
+10:36:12:179       AText inside DoIt
+10:36:12:179       A Warning°
+10:36:12:179       A String = sadjfgadsfbmsandfb
+10:36:12:179       AInteger = 4957
+10:36:12:180       A Boolean = True
+10:36:12:181       A CallStack example
+                     $00000000004AA314 line 981 of multilog.pas
+                     $00000000004012D8 line 87 of msgSenderTowardsIPCviewer.pas
+                     $0000000000400B4D
+10:36:12:182    DoIt°
+10:36:12:182 A StringList
+             aaaaaa
+             bbbbbb
+             cccccc
+10:36:12:182 °°
+10:36:12:182 This Text Should be logged with [lwInfo]
+10:36:12:182 This Text Should be logged with [lwInfo,lwIPC]
+10:36:12:182 Info°
+10:36:12:182 Error°
+10:36:12:182 Warning°
+10:36:12:182 HeapInfo in except..end;
+             All values are in [bytes]:
+             MaxHeapSize: 491,520
+             MaxHeapUsed: 160,576
+             CurrHeapSize: 491,520
+             CurrHeapUsed: 24,768
+             CurrHeapFree: 466,752
+10:36:12:182 Manual exception raised!°
+             Exception - Manual exception raised!
+               $00000000004013C1 line 97 of msgSenderTowardsIPCviewer.pas
+=== Log Session Started at 4-2-20 10:36:54 by msgSenderTowardsIPCviewer ===
+10:36:54:298 Hello 1
+10:36:54:298 Hello 2
+10:36:54:298 Counter1=1
+10:36:54:298 AStrWatch=XXXX
+10:36:54:299 Only show if not called by TestLogClick
+10:36:54:299 Manual exception num#1 raised!°
+             Exception - Manual exception num#1 raised!
+               $0000000000400DD7 line 40 of msgSenderTowardsIPCviewer.pas
+10:36:54:299 Counter1=2
+10:36:54:299 AStrWatch=XXXX
+10:36:54:299 An empty StringList
+              
+10:36:54:300 CounteR1=3
+10:36:54:300 AIntWatch=123
+10:36:54:300 A Text Message
+10:36:54:300 CounTER1=4
+10:36:54:300 Another Text Message
+10:36:54:300 Counter1=3
+10:36:54:300 AIntWatch=321
+10:36:54:301 A Error Message°
+10:36:54:301 Counter1=0
+10:36:54:301 ASTRWatch=YYYY
+10:36:54:301 An Object/Component [$00007F789DD323C0]
+object The_Obj_Name: TMyObject
+  Id = 2
+end
+10:36:54:302 °°
+10:36:54:302 MultiLog API `Info` for *debug* purpose°
+10:36:54:302 Counter1=1
+10:36:54:302 AStrWatch=XXXX
+10:36:54:302 MultiLog API `Error` for *debug* purpose°
+10:36:54:302 Counter1=2
+10:36:54:302 Counter1=3
+10:36:54:302 Counter1=4
+10:36:54:302 Counter1=5
+10:36:54:302 Counter1=6
+10:36:54:302    DoIt°
+10:36:54:303       AText inside DoIt
+10:36:54:303       A Warning°
+10:36:54:303       A String = sadjfgadsfbmsandfb
+10:36:54:303       AInteger = 4957
+10:36:54:303       A Boolean = True
+10:36:54:305       A CallStack example
+                     $00000000004AA314 line 981 of multilog.pas
+                     $00000000004012D8 line 87 of msgSenderTowardsIPCviewer.pas
+                     $0000000000400B4D
+10:36:54:305    DoIt°
+10:36:54:305 A StringList
+             aaaaaa
+             bbbbbb
+             cccccc
+10:36:54:305 °°
+10:36:54:305 This Text Should be logged with [lwInfo]
+10:36:54:306 This Text Should be logged with [lwInfo,lwIPC]
+10:36:54:306 Info°
+10:36:54:306 Error°
+10:36:54:306 Warning°
+10:36:54:306 HeapInfo in except..end;
+             All values are in [bytes]:
+             MaxHeapSize: 491,520
+             MaxHeapUsed: 160,576
+             CurrHeapSize: 491,520
+             CurrHeapUsed: 24,768
+             CurrHeapFree: 466,752
+10:36:54:306 Manual exception raised!°
+             Exception - Manual exception raised!
+               $00000000004013C1 line 97 of msgSenderTowardsIPCviewer.pas
+=== Log Session Started at 4-2-20 10:37:10 by msgSenderTowardsIPCviewer ===
+10:37:10:275 Hello 1
+10:37:10:275 Hello 2
+10:37:10:276 Counter1=1
+10:37:10:276 AStrWatch=XXXX
+10:37:10:276 Only show if not called by TestLogClick
+10:37:10:276 Manual exception num#1 raised!°
+             Exception - Manual exception num#1 raised!
+               $0000000000400DD7 line 40 of msgSenderTowardsIPCviewer.pas
+10:37:10:277 Counter1=2
+10:37:10:277 AStrWatch=XXXX
+10:37:10:277 An empty StringList
+              
+10:37:10:277 CounteR1=3
+10:37:10:277 AIntWatch=123
+10:37:10:277 A Text Message
+10:37:10:277 CounTER1=4
+10:37:10:277 Another Text Message
+10:37:10:277 Counter1=3
+10:37:10:277 AIntWatch=321
+10:37:10:278 A Error Message°
+10:37:10:278 Counter1=0
+10:37:10:278 ASTRWatch=YYYY
+10:37:10:278 An Object/Component [$00007F475952F3C0]
+object The_Obj_Name: TMyObject
+  Id = 2
+end
+10:37:10:278 °°
+10:37:10:278 MultiLog API `Info` for *debug* purpose°
+10:37:10:278 Counter1=1
+10:37:10:278 AStrWatch=XXXX
+10:37:10:278 MultiLog API `Error` for *debug* purpose°
+10:37:10:279 Counter1=2
+10:37:10:279 Counter1=3
+10:37:10:279 Counter1=4
+10:37:10:279 Counter1=5
+10:37:10:279 Counter1=6
+10:37:10:279    DoIt°
+10:37:10:279       AText inside DoIt
+10:37:10:279       A Warning°
+10:37:10:279       A String = sadjfgadsfbmsandfb
+10:37:10:279       AInteger = 4957
+10:37:10:280       A Boolean = True
+10:37:10:281       A CallStack example
+                     $00000000004AA314 line 981 of multilog.pas
+                     $00000000004012D8 line 87 of msgSenderTowardsIPCviewer.pas
+                     $0000000000400B4D
+10:37:10:281    DoIt°
+10:37:10:281 A StringList
+             aaaaaa
+             bbbbbb
+             cccccc
+10:37:10:282 °°
+10:37:10:282 This Text Should be logged with [lwInfo]
+10:37:10:282 This Text Should be logged with [lwInfo,lwIPC]
+10:37:10:282 Info°
+10:37:10:282 Error°
+10:37:10:282 Warning°
+10:37:10:282 HeapInfo in except..end;
+             All values are in [bytes]:
+             MaxHeapSize: 491,520
+             MaxHeapUsed: 160,576
+             CurrHeapSize: 491,520
+             CurrHeapUsed: 24,768
+             CurrHeapFree: 466,752
+10:37:10:283 Manual exception raised!°
+             Exception - Manual exception raised!
+               $00000000004013C1 line 97 of msgSenderTowardsIPCviewer.pas
+=== Log Session Started at 4-2-20 16:59:01 by msgSenderTowardsIPCviewer ===
+16:59:01:512 Hello 1
+16:59:01:512 Hello 2
+16:59:01:512 Counter1=1
+16:59:01:512 AStrWatch=XXXX
+16:59:01:512 Only show if not called by TestLogClick
+16:59:01:513 Manual exception num#1 raised!°
+             Exception - Manual exception num#1 raised!
+               $0000000000400DD7 line 40 of msgSenderTowardsIPCviewer.pas
+16:59:01:513 Counter1=2
+16:59:01:513 AStrWatch=XXXX
+16:59:01:513 An empty StringList
+              
+16:59:01:513 CounteR1=3
+16:59:01:514 AIntWatch=123
+16:59:01:514 A Text Message
+16:59:01:514 CounTER1=4
+16:59:01:514 Another Text Message
+16:59:01:514 Counter1=3
+16:59:01:514 AIntWatch=321
+16:59:01:514 A Error Message°
+16:59:01:515 Counter1=0
+16:59:01:515 ASTRWatch=YYYY
+16:59:01:515 An Object/Component [$00007F7C26A2A3C0]
+object The_Obj_Name: TMyObject
+  Id = 2
+end
+16:59:01:515 °°
+16:59:01:515 MultiLog API `Info` for *debug* purpose°
+16:59:01:515 Counter1=1
+16:59:01:515 AStrWatch=XXXX
+16:59:01:515 MultiLog API `Error` for *debug* purpose°
+16:59:01:516 Counter1=2
+16:59:01:516 Counter1=3
+16:59:01:516 Counter1=4
+16:59:01:516 Counter1=5
+16:59:01:516 Counter1=6
+16:59:01:516    DoIt°
+16:59:01:516       AText inside DoIt
+16:59:01:516       A Warning°
+16:59:01:517       A String = sadjfgadsfbmsandfb
+16:59:01:517       AInteger = 4957
+16:59:01:517       A Boolean = True
+16:59:01:519       A CallStack example
+                     $00000000004AA314 line 981 of multilog.pas
+                     $00000000004012D8 line 87 of msgSenderTowardsIPCviewer.pas
+                     $0000000000400B4D
+16:59:01:519    DoIt°
+16:59:01:519 A StringList
+             aaaaaa
+             bbbbbb
+             cccccc
+16:59:01:519 °°
+16:59:01:519 This Text Should be logged with [lwInfo]
+16:59:01:519 This Text Should be logged with [lwInfo,lwIPC]
+16:59:01:519 Info°
+16:59:01:520 Error°
+16:59:01:520 Warning°
+16:59:01:520 HeapInfo in except..end;
+             All values are in [bytes]:
+             MaxHeapSize: 491,520
+             MaxHeapUsed: 160,576
+             CurrHeapSize: 491,520
+             CurrHeapUsed: 24,768
+             CurrHeapFree: 466,752
+16:59:01:520 Manual exception raised!°
+             Exception - Manual exception raised!
+               $00000000004013C1 line 97 of msgSenderTowardsIPCviewer.pas
