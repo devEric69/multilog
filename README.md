@@ -12,7 +12,7 @@ Basically, it's the same as "MultiLog" at 97%.<br>
 <br>
 The only difference is that, this is a simplified integration of the logging.<br>
 This small transformation is a simplified integration of the logging mechanism, of the logged messages: 
-to summarize, Multilog's TLogger class allows the variation of both, a group of target reasons, and a group of source resaons associated with the message. 
+to summarize, Multilog's TLogger class allows the variation of both, a group of target reasons, and a group of source reasons associated with each message. 
 Multilog's TLogger class logs the intersection of the latter with the message.<br>
 The Class TIntegratedLogger now, uses only one group: the group associated with the message. This group must be modified before the logging call.<br>
 The modification of this only group, is logged with the character °: so, I can follow where this group is modified.<br>
