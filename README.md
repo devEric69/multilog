@@ -89,7 +89,7 @@ in the file <span class="stabilo_gris">getdescriptionof_sql_exception.inc</span>
 <br>
 
 •<b> IPC </b>(Inter Processes Calls) between between client programs (with ou without GUI, on the left of the image below), and a server program (on the right, which displays the received messages, sent by the above mentioned client applications:
-![multilog_doc/overwiewFiles/simpleViewer.png](https://github.com/devEric69/multilog/blob/master/multilog_doc/overwiewFiles/simpleViewer.png)
+![multilog_doc/overwiewFiles/simpleviewer.png](https://github.com/devEric69/multilog/blob/master/multilog_doc/overwiewFiles/simpleviewer.png)
 ![multilog_doc/overwiewFiles/clientsandServerIPC.png](https://github.com/devEric69/multilog/blob/master/multilog_doc/overwiewFiles/clientsandServerIPC.png)
 
  
