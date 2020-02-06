@@ -40,7 +40,7 @@ of why one writes actually and sub-sequentially in the log (see FsetFilterDynami
 <h3>Global explanation:</h3>
 Now, a method is chosen to log. A simple method: methInfo, methWarning, methError, ... For which purpose(s), classification group(s)?. At least, the simplest: lwInfo, or lwWarning, or lwError, or lwDebug.
 However, there can be several classification groups for the chosen method: (lwInfo, lwDebug), or (lwWarning, lwDebug), or (lwError, lwDebug). Or (lwInfo, lwDebug, lwIPC), or (lwWarning, lwDebug, lwIPC), or (lwError, lwDebug, lwIPC), and so on depending on how you analize things. 
-<span class="stabilo_gris">You can define yours, in multiuser*.inc.</span>
+You can define yours, in multi_user*.inc.
 Beware: a group like (lwInfo, lwWarning, lwError, lwDebug, lwIPC) seems clever, for me anymay. It's up to you.
 That's all there is to anderstand...
 <pre>
@@ -82,7 +82,7 @@ on a display medium (TMemo □, TFileText ○,TLogTreeView ▶) where it is disp
 • SQL Exceptions that inherit from EDatabaseError are all logged in their <b>own Log_SQL.txt</b>. Indeed, in an SQL application, the majority of errors are due to bad SQL statements, 
 leading to subsequent normal Exceptions and errors.<br>
 You can customize your own SQL Exception retrievals, depending on your own (SQL Classes) hierarchy, which itself often depends on your database driver (SQLdb, IBX, Zeos, ...), 
-in the file <span class="stabilo_gris">getdescriptionof_sql_exception.inc</span>.<br>      
+in the file getdescriptionof_sql_exception_user.inc.<br>      
 <br> 
 • The TFileText medium display is 'thread safe' (in the same way that TMemo was made 'thread safe') with a specialized Semaphore named a Critical section of code.<br>
 
