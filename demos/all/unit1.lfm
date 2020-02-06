@@ -1,0 +1,626 @@
+object Form1: TForm1
+  Left = 209
+  Height = 451
+  Top = 155
+  Width = 1155
+  HorzScrollBar.Page = 806
+  VertScrollBar.Page = 358
+  Caption = 'Test Multilog'
+  ClientHeight = 451
+  ClientWidth = 1155
+  OnCreate = FormCreate
+  OnDestroy = FormDestroy
+  Position = poScreenCenter
+  object Notebook1: TPageControl
+    Left = 0
+    Height = 451
+    Top = 0
+    Width = 650
+    ActivePage = pageGeneral
+    Align = alLeft
+    TabIndex = 0
+    TabOrder = 0
+    object pageGeneral: TTabSheet
+      Caption = 'General'
+      ClientHeight = 414
+      ClientWidth = 644
+      object EditInfo: TEdit
+        Left = 112
+        Height = 37
+        Top = 147
+        Width = 152
+        TabOrder = 0
+        Text = 'A info example'
+      end
+      object butInfo: TButton
+        Left = 14
+        Height = 25
+        Top = 147
+        Width = 90
+        BorderSpacing.InnerBorder = 4
+        Caption = 'Info'
+        OnClick = butInfoClick
+        TabOrder = 1
+      end
+      object butWarning: TButton
+        Left = 14
+        Height = 25
+        Top = 189
+        Width = 90
+        BorderSpacing.InnerBorder = 4
+        Caption = 'Warning'
+        OnClick = butWarningClick
+        TabOrder = 2
+      end
+      object butError: TButton
+        Left = 14
+        Height = 25
+        Top = 231
+        Width = 90
+        BorderSpacing.InnerBorder = 4
+        Caption = 'Error'
+        OnClick = butErrorClick
+        TabOrder = 3
+      end
+      object EditWarning: TEdit
+        Left = 112
+        Height = 37
+        Top = 189
+        Width = 152
+        TabOrder = 4
+        Text = 'A warning example'
+      end
+      object EditError: TEdit
+        Left = 108
+        Height = 37
+        Top = 231
+        Width = 152
+        TabOrder = 5
+        Text = 'A error example'
+      end
+      object butSubLog: TBitBtn
+        Left = 14
+        Height = 33
+        Hint = 'An indented callstack of the events is diplayed *only* in the Log file.'#10#10'What''s for?'#10'With linked components in a chain of responsabilities (like TDbGrid<->TDataSource<->TDataSet), wich themselves have chained events inside them, it is sometimes easier to code a single line in all existing events to anderstand the movies of contextual events and to study where whe have to code what.'
+        Top = 364
+        Width = 385
+        Anchors = [akLeft, akBottom]
+        Caption = 'Test Sub Procedure, and see the film of the events'
+        Glyph.Data = {
+          76010000424D7801000000000000760000002800000020000000100000000100
+          04000000000000000000120B0000120B00000000000000000000000000000000
+          800000800000008080008000000080008000808000007F7F7F00BFBFBF000000
+          FF0000FF000000FFFF00FF000000FF00FF00FFFF0000FFFFFF00300000000000
+          0000377777777777777703030303030303037F7F7F7F7F7F7F7F000000000000
+          00007777777777777777933393303933337073F37F37F73F3377393393303393
+          379037FF7F37F37FF777379793303379793037777337F3777737339933303339
+          93303377F3F7F3F77F3733993930393993303377F737F7377FF7399993303399
+          999037777337F377777793993330333393307377FF37F3337FF7333993303333
+          993033377F37F33377F7333993303333993033377337F3337737333333303333
+          33303FFFFFF7FFFFFFF700000000000000007777777777777777030303030303
+          03037F7F7F7F7F7F7F7F00000000000000007777777777777777
+        }
+        NumGlyphs = 2
+        OnClick = ButSubLogClick
+        ParentShowHint = False
+        ShowHint = True
+        TabOrder = 6
+      end
+      object butTestFilterOnWhichTrackingPurposesMsgAreLogged: TButton
+        Left = 14
+        Height = 33
+        Top = 322
+        Width = 385
+        Anchors = [akLeft, akBottom]
+        Caption = 'Another exemple, with a dynamic ''Set of'' filter'
+        OnClick = butTestFilterOnWhichTrackingPurposesMsgAreLoggedClick
+        TabOrder = 7
+      end
+      object gbxTrackingPurposes_and_messageUsed: TGroupBox
+        Left = 14
+        Height = 140
+        Top = 0
+        Width = 462
+        Anchors = [akLeft, akBottom]
+        ClientHeight = 138
+        ClientWidth = 460
+        TabOrder = 8
+        object chkShowUsedMethod: TCheckBox
+          AnchorSideTop.Side = asrBottom
+          Left = 0
+          Height = 32
+          Top = 63
+          Width = 203
+          Caption = 'Show used method to log'
+          OnChange = chkShowUsedMethodChange
+          TabOrder = 0
+        end
+        object ShowTimeCheckBox: TCheckBox
+          AnchorSideTop.Side = asrBottom
+          Left = 0
+          Height = 32
+          Top = 35
+          Width = 106
+          Caption = 'Show Time'
+          OnChange = ShowTimeCheckBoxChange
+          TabOrder = 1
+        end
+        object TimeFormatEdit: TEdit
+          AnchorSideLeft.Control = ShowTimeCheckBox
+          AnchorSideLeft.Side = asrBottom
+          Left = 110
+          Height = 37
+          Top = 28
+          Width = 128
+          BorderSpacing.Left = 4
+          OnEditingDone = TimeFormatEditEditingDone
+          TabOrder = 2
+        end
+        object chkShowDynamicFilter_forWhatReasonsToLogActually: TCheckBox
+          AnchorSideTop.Side = asrBottom
+          Left = 0
+          Height = 32
+          Top = 91
+          Width = 312
+          Caption = 'Show for what reasons, do we log actually'
+          OnChange = chkShowDynamicFilter_forWhatReasonsToLogActuallyChange
+          TabOrder = 3
+        end
+        object chkLogAlmostWhith_lwdebug_reason: TCheckBox
+          AnchorSideTop.Side = asrBottom
+          Left = 0
+          Height = 32
+          Top = 0
+          Width = 435
+          Caption = 'Set almost [lwDebug] in reasons, why we are actually logging'
+          Checked = True
+          Enabled = False
+          OnClick = chkLogAlmostWhith_lwdebug_reasonClick
+          State = cbChecked
+          TabOrder = 4
+        end
+      end
+      object butTestLog: TButton
+        Left = 14
+        Height = 33
+        Top = 280
+        Width = 301
+        Anchors = [akLeft, akBottom]
+        BorderSpacing.InnerBorder = 4
+        Caption = 'Test All with a dynamic ''Set of'' filter'
+        OnClick = TestLogClick
+        ParentShowHint = False
+        ShowHint = True
+        TabOrder = 9
+      end
+    end
+    object pageVariables: TTabSheet
+      Caption = 'Variables'
+      ClientHeight = 414
+      ClientWidth = 644
+      object editString: TEdit
+        Left = 100
+        Height = 37
+        Top = 30
+        Width = 324
+        TabOrder = 0
+        Text = 'Hello'
+      end
+      object butString: TButton
+        Left = 5
+        Height = 25
+        Top = 29
+        Width = 90
+        BorderSpacing.InnerBorder = 4
+        Caption = 'String'
+        OnClick = butStringClick
+        TabOrder = 1
+      end
+      object butInteger: TButton
+        Left = 5
+        Height = 25
+        Top = 84
+        Width = 90
+        BorderSpacing.InnerBorder = 4
+        Caption = 'Integer'
+        OnClick = butIntegerClick
+        TabOrder = 2
+      end
+      object butFloat: TButton
+        Left = 5
+        Height = 25
+        Top = 140
+        Width = 90
+        BorderSpacing.InnerBorder = 4
+        Caption = 'Float'
+        OnClick = butFloatClick
+        TabOrder = 3
+      end
+      object butBoolean: TButton
+        Left = 5
+        Height = 25
+        Top = 189
+        Width = 90
+        BorderSpacing.InnerBorder = 4
+        Caption = 'Boolean'
+        OnClick = butBooleanClick
+        TabOrder = 4
+      end
+      object spinInteger: TSpinEdit
+        Left = 100
+        Height = 37
+        Top = 85
+        Width = 50
+        TabOrder = 5
+        Value = 1
+      end
+      object spinFloat: TFloatSpinEdit
+        Left = 100
+        Height = 37
+        Top = 141
+        Width = 96
+        MinValue = 0
+        TabOrder = 6
+        Value = 1.05
+      end
+      object comboBoolean: TComboBox
+        Left = 100
+        Height = 33
+        Top = 190
+        Width = 100
+        ItemHeight = 0
+        ItemIndex = 1
+        Items.Strings = (
+          'False'
+          'True'
+        )
+        Style = csDropDownList
+        TabOrder = 7
+        Text = 'True'
+      end
+      object butStrings: TButton
+        Left = 5
+        Height = 25
+        Top = 240
+        Width = 90
+        BorderSpacing.InnerBorder = 4
+        Caption = 'Strings'
+        OnClick = butStringsClick
+        TabOrder = 8
+      end
+      object memoStrings: TMemo
+        Left = 100
+        Height = 158
+        Top = 241
+        Width = 320
+        Lines.Strings = (
+          'x'
+          'y'
+          'z'
+        )
+        TabOrder = 9
+      end
+    end
+    object pageSpecialized: TTabSheet
+      Caption = 'Specialized Info'
+      ClientHeight = 414
+      ClientWidth = 644
+      object butCallStack: TButton
+        Left = 35
+        Height = 25
+        Top = 37
+        Width = 110
+        BorderSpacing.InnerBorder = 4
+        Caption = 'Call Stack'
+        OnClick = butCallStackClick
+        TabOrder = 0
+      end
+      object butHeapInfo: TButton
+        Left = 35
+        Height = 25
+        Top = 86
+        Width = 110
+        BorderSpacing.InnerBorder = 4
+        Caption = 'Heap Info'
+        OnClick = butHeapInfoClick
+        TabOrder = 1
+      end
+      object butException: TButton
+        Left = 35
+        Height = 25
+        Top = 135
+        Width = 110
+        BorderSpacing.InnerBorder = 4
+        Caption = 'Exception'
+        OnClick = butExceptionClick
+        TabOrder = 2
+      end
+      object butObject: TButton
+        Left = 35
+        Height = 25
+        Top = 233
+        Width = 110
+        BorderSpacing.InnerBorder = 4
+        Caption = 'Object'
+        OnClick = ObjectClick
+        TabOrder = 3
+      end
+      object ButSendMemory: TButton
+        Left = 35
+        Height = 24
+        Top = 282
+        Width = 110
+        BorderSpacing.InnerBorder = 4
+        Caption = 'Memory'
+        OnClick = ButSendMemoryClick
+        TabOrder = 4
+      end
+      object butException1: TButton
+        Left = 35
+        Height = 25
+        Top = 184
+        Width = 110
+        BorderSpacing.InnerBorder = 4
+        Caption = 'Exception SQL'
+        OnClick = butException1Click
+        TabOrder = 5
+      end
+    end
+    object pageWatches: TTabSheet
+      Caption = 'Watches/CheckPoints/Counters'
+      ClientHeight = 414
+      ClientWidth = 644
+      object butWatchInteger: TButton
+        Left = 20
+        Height = 25
+        Top = 43
+        Width = 120
+        BorderSpacing.InnerBorder = 4
+        Caption = 'Watch an Integer'
+        OnClick = butWatchIntegerClick
+        TabOrder = 0
+      end
+      object spinWatchInteger: TSpinEdit
+        Left = 143
+        Height = 37
+        Top = 44
+        Width = 50
+        TabOrder = 1
+        Value = 2
+      end
+      object butWatchString: TButton
+        Left = 20
+        Height = 25
+        Top = 101
+        Width = 120
+        BorderSpacing.InnerBorder = 4
+        Caption = 'Watch a String'
+        OnClick = butWatchStringClick
+        TabOrder = 2
+      end
+      object EditWatchString: TEdit
+        Left = 143
+        Height = 37
+        Top = 102
+        Width = 152
+        TabOrder = 3
+        Text = 'Hello, bis'
+      end
+      object ButGenericCheckPoint: TButton
+        Left = 20
+        Height = 25
+        Hint = 'Send 3 checkpoints (they are automatically incremented; their Counter can be reset at any time)'
+        Top = 154
+        Width = 253
+        BorderSpacing.InnerBorder = 4
+        Caption = 'Add a\some Generic CheckPoints()'
+        OnClick = ButGenericCheckPointClick
+        ParentShowHint = False
+        ShowHint = True
+        TabOrder = 4
+      end
+      object ButAddNamedCheckPoint: TButton
+        Left = 20
+        Height = 25
+        Hint = 'Send 3 named checkpoints (they are automatically incremented; their Counter can be reset at any time)'
+        Top = 211
+        Width = 251
+        BorderSpacing.InnerBorder = 4
+        Caption = 'Add a\some Named CheckPoint(s)'
+        OnClick = ButAddNamedCheckPointClick
+        ParentShowHint = False
+        ShowHint = True
+        TabOrder = 5
+      end
+      object EditNamedCheckPoint: TEdit
+        Left = 277
+        Height = 37
+        Top = 211
+        Width = 144
+        TabOrder = 6
+        Text = 'chkPoint_'
+      end
+      object GroupBox1: TGroupBox
+        Left = 21
+        Height = 112
+        Top = 273
+        Width = 413
+        Anchors = [akLeft, akBottom]
+        Caption = 'Counters:'
+        ClientHeight = 94
+        ClientWidth = 411
+        TabOrder = 7
+        object butCounter: TButton
+          Left = 70
+          Height = 25
+          Top = 35
+          Width = 280
+          Anchors = [akTop, akLeft, akRight, akBottom]
+          BorderSpacing.InnerBorder = 4
+          Caption = 'Tests with Counters'
+          OnClick = butCounterClick
+          TabOrder = 0
+        end
+      end
+    end
+    object PageBitmap: TTabSheet
+      Caption = 'Bitmap'
+      ClientHeight = 414
+      ClientWidth = 644
+      object Image1: TImage
+        Left = 12
+        Height = 100
+        Top = 50
+        Width = 100
+        AutoSize = True
+      end
+      object ButOpenImage: TButton
+        Left = 12
+        Height = 25
+        Top = 14
+        Width = 90
+        BorderSpacing.InnerBorder = 4
+        Caption = 'Open Image'
+        OnClick = ButOpenImageClick
+        TabOrder = 0
+      end
+      object ButSendBitmap: TButton
+        Left = 116
+        Height = 25
+        Top = 14
+        Width = 90
+        BorderSpacing.InnerBorder = 4
+        Caption = 'Send Bitmap'
+        OnClick = ButSendBitmapClick
+        TabOrder = 1
+      end
+    end
+  end
+  object Splitter1: TSplitter
+    Left = 650
+    Height = 451
+    Top = 0
+    Width = 5
+  end
+  object ViewersPageControl: TPageControl
+    Left = 655
+    Height = 419
+    Top = 0
+    Width = 500
+    ActivePage = MemoTabSheet
+    Align = alClient
+    BorderSpacing.Bottom = 32
+    TabIndex = 1
+    TabOrder = 2
+    object TreeTabSheet: TTabSheet
+      Caption = 'TreeView'
+    end
+    object MemoTabSheet: TTabSheet
+      Caption = 'Memo'
+      ClientHeight = 382
+      ClientWidth = 494
+      object memLog: TMemo
+        Left = 2
+        Height = 378
+        Top = 2
+        Width = 490
+        Align = alClient
+        BorderSpacing.Around = 2
+        ScrollBars = ssAutoVertical
+        TabOrder = 0
+      end
+    end
+    object FilenameSheet: TTabSheet
+      Caption = 'Log file'
+      ClientHeight = 382
+      ClientWidth = 494
+      object memFileLog: TMemo
+        Left = 7
+        Height = 298
+        Top = 56
+        Width = 480
+        Anchors = [akTop, akLeft, akRight, akBottom]
+        Lines.Strings = (
+          '.../...'
+        )
+        ScrollBars = ssVertical
+        TabOrder = 0
+      end
+      object btnDeleteLogFile1: TButton
+        Left = 7
+        Height = 25
+        Top = 28
+        Width = 480
+        Anchors = [akTop, akLeft, akRight]
+        Caption = 'Clear only the log file'
+        OnClick = btnDeleteLogFile1Click
+        TabOrder = 1
+      end
+      object BitBtn1: TBitBtn
+        Left = 9
+        Height = 33
+        Top = -2
+        Width = 474
+        Anchors = [akTop, akLeft, akRight]
+        Caption = 'Load the log file in the memo below'
+        Glyph.Data = {
+          DE010000424DDE01000000000000760000002800000024000000120000000100
+          0400000000006801000000000000000000000000000000000000000000000000
+          8000008000000080800080000000800080008080000080808000C0C0C0000000
+          FF0000FF000000FFFF00FF000000FF00FF00FFFF0000FFFFFF00333333444444
+          33333333333F7777773F33330000324334222222443333377F3733333377F333
+          000032244222222222433337F7733FFFFF337F3300003222222AAAAA22243337
+          F333F77777F337F30000322222A33333A2224337F33F7333337F337F00003222
+          223333333A224337F33733333337F37F00003222222333333A444337FFFF7F33
+          3337777300003AAAAAAA33333333333777777733333333330000333333333333
+          333333333333333333FFFFFF000033333333333344444433FFFF333333777777
+          00003A444333333A22222437777F333337F3333700003A2243333333A2222437
+          F37F333333733337000033A224333334422224337337FFFFF7733337000033A2
+          22444442222224337F3377777333FF370000333A2222222222AA243337FF3333
+          33FF77F700003333AA222222AA33A3333377FFFFFF7733730000333333AAAAAA
+          3333333333337777773333330000333333333333333333333333333333333333
+          0000
+        }
+        NumGlyphs = 2
+        OnClick = btnLoadLogFileClick
+        TabOrder = 2
+      end
+    end
+  end
+  object butClear: TBitBtn
+    Left = 967
+    Height = 33
+    Top = 418
+    Width = 183
+    Anchors = [akRight, akBottom]
+    Caption = 'Clear all "channels"'
+    Glyph.Data = {
+      76010000424D7801000000000000760000002800000020000000100000000100
+      04000000000000000000120B0000120B00000000000000000000000000000000
+      800000800000008080008000000080008000808000007F7F7F00BFBFBF000000
+      FF0000FF000000FFFF00FF000000FF00FF00FFFF0000FFFFFF00333000000000
+      3333333777777777F3333330F777777033333337F3F3F3F7F3333330F0808070
+      33333337F7F7F7F7F3333330F080707033333337F7F7F7F7F3333330F0808070
+      33333337F7F7F7F7F3333330F080707033333337F7F7F7F7F3333330F0808070
+      333333F7F7F7F7F7F3F33030F080707030333737F7F7F7F7F7333300F0808070
+      03333377F7F7F7F773333330F080707033333337F7F7F7F7F333333070707070
+      33333337F7F7F7F7FF3333000000000003333377777777777F33330F88877777
+      0333337FFFFFFFFF7F3333000000000003333377777777777333333330777033
+      3333333337FFF7F3333333333000003333333333377777333333
+    }
+    NumGlyphs = 2
+    OnClick = butClearClick
+    TabOrder = 3
+  end
+  object OpenDialog1: TOpenDialog
+    FilterIndex = 0
+    left = 364
+    top = 182
+  end
+  object FakeSQLQueryToRaiseAnException: TSQLQuery
+    FieldDefs = <>
+    Params = <>
+    left = 364
+    top = 140
+  end
+end
