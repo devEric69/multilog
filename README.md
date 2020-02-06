@@ -95,7 +95,7 @@ in the file <span class="stabilo_gris">getdescriptionof_sql_exception.inc</span>
 ![multilog_doc/overwiewFiles/clientsandServerIPC.png](https://github.com/devEric69/multilog/blob/master/multilog_doc/overwiewFiles/clientsandServerIPC.png)
 
  
-• the text log is also <b>" thread safe "</b>, and separates the descrition of SQL Exceptions from the others, each group in its own text file:
+• the text log is also <b>" thread safe "</b>, and separates the descrition of SQL Exceptions from the others, each group in its own text file:<br>
 ![multilog_doc/overwiewFiles/differenciedLog.png](https://github.com/devEric69/multilog/blob/master/multilog_doc/overwiewFiles/differenciedLog.png)
 
 • added possibility, to see the reasons for each logging: such a log line was added for [lwDebug, lwInfo] reasons; such another line was written for [lwError, lwIPC] reasons; the last one is a simple [lwWarning]; etc. The text file medium can indent the logged entangled events by watching the ESP machine register variation.<br>
