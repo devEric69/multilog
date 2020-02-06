@@ -26,10 +26,10 @@ Another small change: the Class TFileChannel has been modified to be "thread saf
 <br>
 <u>prerequisites ❶:</u><br>
 The Class TIntegratedLogger has a group of methods to trace a program: methEnterMethod, methExitMethod, methValue, methInfo, methWaring, an so one.<br>
-Many methods then... without one: methDebug !<br>
+Many methods then... <span style="background-color:#FFCC00;">without one: methDebug !</span><br>
 <br>
 <u>prerequisites ❷:</u><br>
-Repeated again, MultiLog is a set of methods, to trace a program WITHOUT the methDebug.<br>
+<span style="background-color:#FFCC00;">Repeated again, MultiLog is a set of methods, to trace a program WITHOUT the methDebug.</span><br>
 <br>
 <u>prerequisites ❸:</u><br>
 ==> There are only 1 classification groups in TIntegratedLogger: a subgroup, which is a dynamic group \ "set of", which is the filter that lists the ***effectively purposes***, 
