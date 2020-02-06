@@ -10,12 +10,12 @@ This is a simplified integration of the Multilog's logging system.
 <h1 align="center"> Why another "MultiLog"'s fork? </h1>
 Basically, it's the same as "MultiLog" at 97%.<br>
 <br>
-<span class="stabilo_jaune">The only difference is that, this is a simplified integration of the logging.</span><br>
+The only difference is that, this is a simplified integration of the logging.<br>
 This small transformation is a simplified integration of the logging mechanism, of a logged message: 
 to summarize, Multilog's TLogger class allows the variation of both, a group of target reasons, and a group of source resaons associated with the message. 
 Multilog's TLogger class logs the intersection of the latter with the message.<br>
 The Class TIntegratedLogger now, uses only one group: the group associated with the message. This group must be modified before the logging call.<br>
-<span class="stabilo_violet">The modification of this only group, is logged with the character °</span>: so, I can follow where this group is modified.<br>
+The modification of this only group, is logged with the character °: so, I can follow where this group is modified.<br>
 Another small change: the Class TFileChannel has been modified to be "thread safe", too. And it can indent the logged events by watching the ESP machine register variation.
   
 <br><br><br>
@@ -26,10 +26,10 @@ Another small change: the Class TFileChannel has been modified to be "thread saf
 <br>
 <u>prerequisites ❶:</u><br>
 The Class TIntegratedLogger has a group of methods to trace a program: methEnterMethod, methExitMethod, methValue, methInfo, methWaring, an so one.<br>
-Many methods then... <span style="background-color:#FFCC00;">without one: methDebug !</span><br>
+Many methods then... <b><u>without one: methDebug !</u></b><br>
 <br>
 <u>prerequisites ❷:</u><br>
-<span style="background-color:#ffff00;">Repeated again, MultiLog is a set of methods, to trace a program WITHOUT the methDebug.</span><br>
+<b><u>Repeated again, MultiLog is a set of methods, to trace a program WITHOUT the methDebug.</u></b><br>
 <br>
 <u>prerequisites ❸:</u><br>
 ==> There are only 1 classification groups in TIntegratedLogger: a subgroup, which is a dynamic group \ "set of", which is the filter that lists the ***effectively purposes***, 
