@@ -96,6 +96,8 @@ in the file <span class="stabilo_gris">getdescriptionof_sql_exception.inc</span>
 • the text log is also <b>" thread safe "</b>, and separates the descrition of SQL Exceptions from the others, each group in its own text file:
 ![multilog_doc/overwiewFiles/differenciedLog.png](https://github.com/devEric69/multilog/blob/master/multilog_doc/overwiewFiles/differenciedLog.png)
 
-• added possibility, to see the reasons for each logging: such a log line was added for [lwDebug, lwInfo] reasons; such another line was written for [lwError, lwIPC] reasons; the last one is a simple [lwWarning]; etc. The text file medium can indent the logged entangled events by watching the ESP machine register variation:
+• added possibility, to see the reasons for each logging: such a log line was added for [lwDebug, lwInfo] reasons; such another line was written for [lwError, lwIPC] reasons; the last one is a simple [lwWarning]; etc. The text file medium can indent the logged entangled events by watching the ESP machine register variation.
+What's for?
+With linked components in a chain of responsabilities (like TDbGrid<->TDataSource<->TDataSet), wich themselves have chained events inside them, it is sometimes easier to code a single line in all existing events to anderstand the movies of contextual events and to study where whe have to code what:
 ![multilog_doc/overwiewFiles/autoMultiLog_IndentedEBP.png](https://github.com/devEric69/multilog/blob/master/multilog_doc/overwiewFiles/autoMultiLog_IndentedEBP.png)
  
