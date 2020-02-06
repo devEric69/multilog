@@ -1,4 +1,4 @@
-# multilog
+# Multilog
 This is a simplified integration of the Multilog's logging system. 
 
 [You can read here, an overview of the features \ modifications in this fork compared to the original one](https://github.com/devEric69/multilog/blob/master/multilog_doc/overwiew.htm): it's basically the same things as below, repeated differently.
