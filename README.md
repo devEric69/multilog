@@ -21,6 +21,8 @@ Another small change: the Class TFileChannel has been modified to be "thread saf
 <br><br><br>
 <h3> Brief summmary of the processing of "MultiLog": </h3>
 
+![multilog_doc/overwiewFiles/ExampleOfMinimumFilter.png](https://github.com/devEric69/multilog/blob/master/multilog_doc/overwiewFiles/ExampleOfMinimumFilter.png)
+
 <br>
 <u>prerequisites ❶:</u><br>
 The Class TIntegratedLogger has a group of methods to trace a program: methEnterMethod, methExitMethod, methValue, methInfo, methWaring, an so one.<br>
