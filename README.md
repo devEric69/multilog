@@ -29,7 +29,7 @@ The Class TIntegratedLogger has a group of methods to trace a program: methEnter
 Many methods then... <b>without one: methDebug (there's not a group of methods that carry the methDebug signature) !</b><br>
 <br>
 <u>prerequisites ❷:</u><br>
-<b>Repeated again, MultiLog is a set of methods, to trace a program WITHOUT the methDebug.</b><br>
+<b>Repeated again, MultiLog is composed of sets of methods (each set has its own signature meth*) to trace a program, WITHOUT the methDebug.</b><br>
 <br>
 <u>prerequisites ❸:</u><br>
 ==> There are only 1 classification groups in TIntegratedLogger: a subgroup, which is a dynamic group \ "set of", which is the filter that lists the ***effectively purposes***, 
