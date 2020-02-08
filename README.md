@@ -44,7 +44,7 @@ You can define yours, in multi_user*.inc.
 Beware: a group like (lwInfo, lwWarning, lwError, lwDebug, lwIPC) seems clever, for me anymay. It's up to you.
 That's all there is to anderstand...
 <pre>
-<u><i>drawn summary...:</i></u><br>
+<u><i>Drawn summary...:</i></u><br>
 <br>
                      |
   several TIntegratedLogger's API calls 
