@@ -41,7 +41,7 @@ For which purpose(s), classification group(s)?<br>
 At least, the simplest: lwInfo, or lwWarning, or lwError, or lwDebug.
 However, there can be several classification groups for the chosen method: (lwInfo, lwDebug), or (lwWarning, lwDebug), or (lwError, lwDebug). Or (lwInfo, lwDebug, lwIPC), or (lwWarning, lwDebug, lwIPC), or (lwError, lwDebug, lwIPC), and so on depending on how you analize things. 
 You can define yours, in multi_user*.inc.
-Beware: a group like (lwInfo, lwWarning, lwError, lwDebug, lwIPC) seems clever, for me anymay. It's up to you.
+Beware: a group like (lwInfo, lwWarning, lwError, lwDebug, lwIPC) seems unclear, for me anymay. It's up to you ^^.
 That's all there is to anderstand...
 <pre>
 <u><i>Drawn summary...:</i></u><br>
