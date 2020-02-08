@@ -95,7 +95,7 @@ on a display medium (TMemo □, TFileText ○,TLogTreeView ▶) where it is disp
 You can customize your own SQL Exception retrievals, depending on your own (SQL Classes) hierarchy, which itself often depends on your database driver (SQLdb, IBX, Zeos, ...), in the file getdescriptionof_sql_exception_user.inc.</br>
 • The TFileText medium display is 'thread safe' (in the same way that TMemo was made 'thread safe') with a specialized Semaphore named a Critical section of code. It separates the descrition of SQL Exceptions from the others, each group in its own text file:
 
-![multilog-doc/overwiewFiles/differenciedLog.png](https://github.com/devEric69/multilog/blob/master/multilog_doc/overwiewFiles/differenciedLog.png) </br>
+![multilog_doc/overwiewFiles/differenciedLog.png](https://github.com/devEric69/multilog/blob/master/multilog_doc/overwiewFiles/differenciedLog.png) </br>
 
 • TGroupOfForWhatReasonsToLogActually can be written to, read from, a variable in the ini configuration file. 
 This allows to imagine methods to activate - deactivate - a DEBUG mode, at run-time, at the client, for example.</br> 
@@ -103,5 +103,5 @@ This allows to imagine methods to activate - deactivate - a DEBUG mode, at run-t
 • As previously stated, the text file medium can indent the logged entangled events by watching the ESP machine register's variation. 
 What's for? With linked components in a chain of responsabilities (like TDbGrid<->TDataSource<->TDataSet), wich themselves have chained events inside them, it is sometimes easier to code a single line in all existing events (mentionning the parameters that can be used or even changed there) in order to anderstand the movies of contextual events, and to study where whe have to code what:
 
-![multilog-doc/overwiewFiles/autoMultiLog_IndentedEBP.png](https://github.com/devEric69/multilog/blob/master/multilog_doc/overwiewFiles/autoMultiLog_IndentedEBP.png) </br>
+![multilog_doc/overwiewFiles/autoMultiLog_IndentedEBP.png](https://github.com/devEric69/multilog/blob/master/multilog_doc/overwiewFiles/autoMultiLog_IndentedEBP.png) </br>
  
