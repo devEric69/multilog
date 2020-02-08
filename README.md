@@ -32,11 +32,11 @@ Many methods then... <b>without one: methDebug (there's not a group of methods t
 <b>Repeated again, MultiLog is composed of sets of methods (each set has its own signature meth*) to trace a program, WITHOUT the methDebug.</b><br>
 <br>
 <u>prerequisites ❸:</u><br>
-==> In TIntegratedLogger, there remains only 1 classification group: a subgroup - a dynamic group \ "set of" - which is the filter that lists the ***effectively purposes***, the reasons (among all the preceding possible) associated with each TIntegratedLogger's logging method considered, explaining why one writes (actually and sub-sequentially) in the log (see TIntegratedLogger.FsetFilterDynamic_ofWhatCanBeEffectivelyLogged field).<br>
+==> In TIntegratedLogger, there remains only 1 classification group - a dynamic group \ "set of: it is simply the filter that lists the ***effectively purposes***, the reasons (among all the preceding possible) associated with each TIntegratedLogger's logging method considered, explaining why one writes (actually and sub-sequentially) in the log (see TIntegratedLogger.FsetFilterDynamic_ofWhatCanBeEffectivelyLogged field).<br>
 
 <br><br><br>
 <h3>Global explanation:</h3>
-Now, a method is chosen to log. A simple method: methInfo, methWarning, methError, ... For which purpose(s), classification group(s)?. At least, the simplest: lwInfo, or lwWarning, or lwError, or lwDebug.
+Now, a method - which bears an intrinsic signature meth* - is chosen to log. A simple method: methInfo, methWarning, methError, ... For which purpose(s), classification group(s)?. At least, the simplest: lwInfo, or lwWarning, or lwError, or lwDebug.
 However, there can be several classification groups for the chosen method: (lwInfo, lwDebug), or (lwWarning, lwDebug), or (lwError, lwDebug). Or (lwInfo, lwDebug, lwIPC), or (lwWarning, lwDebug, lwIPC), or (lwError, lwDebug, lwIPC), and so on depending on how you analize things. 
 You can define yours, in multi_user*.inc.
 Beware: a group like (lwInfo, lwWarning, lwError, lwDebug, lwIPC) seems clever, for me anymay. It's up to you.
