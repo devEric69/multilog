@@ -13,7 +13,7 @@ Basically, it's the same as "MultiLog" at 97%.<br>
 The only difference is that, this is a simplified integration of the logging.<br>
 This small transformation is a simplified integration of the logging mechanism, of the logged messages: 
 to summarize, originelle Multilog's TLogger class allows the variation of both, a group of target reasons, and a group of source reasons associated with each message. 
-Multilog's TLogger class logs the intersection of the latter with the message.<br>
+Original Multilog's TLogger class logs the intersection of the latter with the message.<br>
 The Class TIntegratedLogger now, uses only one group: the group associated with the message. This group must be set \ modified before the logging call(s).<br>
 Each modification of this group, is logged with the character °: so, I can follow where the messages association group is, has been, modified.<br>
 Another small change: the Class TFileChannel has been modified to be "thread safe", too. And it can indent the logged events by watching the ESP machine register's variation.
@@ -98,7 +98,8 @@ in the file getdescriptionof_sql_exception_user.inc.<br>
 • the text log is also <b>" thread safe "</b>, and separates the descrition of SQL Exceptions from the others, each group in its own text file:<br>
 ![multilog_doc/overwiewFiles/differenciedLog.png](https://github.com/devEric69/multilog/blob/master/multilog_doc/overwiewFiles/differenciedLog.png)
 
-• added possibility, to see the reasons for each logging: such a log line was added for [lwDebug, lwInfo] reasons; such another line was written for [lwError, lwIPC] reasons; the last one is a simple [lwWarning]; etc. As previously stated, the text file medium can indent the logged entangled events by watching the ESP machine register's variation.<br>
+• added possibility, to see the reasons for each logging: such a log line was added for [lwDebug, lwInfo] reasons; such another line was written for [lwError, lwIPC] reasons; the last one is a simple [lwWarning]; etc.<br> 
+As previously stated, the text file medium can indent the logged entangled events by watching the ESP machine register's variation. 
 What's for?<br>
 With linked components in a chain of responsabilities (like TDbGrid<->TDataSource<->TDataSet), wich themselves have chained events inside them, it is sometimes easier to code a single line in all existing events (mentionning the parameters that can be used or even changed there) in order to anderstand the movies of contextual events, and to study where whe have to code what:
 ![multilog_doc/overwiewFiles/autoMultiLog_IndentedEBP.png](https://github.com/devEric69/multilog/blob/master/multilog_doc/overwiewFiles/autoMultiLog_IndentedEBP.png)
