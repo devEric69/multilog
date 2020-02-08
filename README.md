@@ -14,7 +14,7 @@ The only difference is that, this is a simplified integration of the logging.<br
 This small transformation is a simplified integration of the logging mechanism, of the logged messages: 
 to summarize, Multilog's TLogger class allows the variation of both, a group of target reasons, and a group of source reasons associated with each message. 
 Multilog's TLogger class logs the intersection of the latter with the message.<br>
-The Class TIntegratedLogger now, uses only one group: the group associated with the message. This group must be modified before the logging call.<br>
+The Class TIntegratedLogger now, uses only one group: the group associated with the message. This group must be set \ modified before the logging call(s).<br>
 The modification of this only group, is logged with the character °: so, I can follow where the messages association group is, has been, modified.<br>
 Another small change: the Class TFileChannel has been modified to be "thread safe", too. And it can indent the logged events by watching the ESP machine register's variation.
   
