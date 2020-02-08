@@ -26,7 +26,7 @@ Another small change: the Class TFileChannel has been modified to be "thread saf
 <br>
 <u>prerequisites ❶:</u><br>
 The Class TIntegratedLogger has a group of methods to trace a program: methEnterMethod, methExitMethod, methValue, methInfo, methWaring, an so one.<br>
-Many methods then... <b>without one: methDebug !</b><br>
+Many methods then... <b>without one: methDebug (there's not a group of methods that carry the methDebug signature) !</b><br>
 <br>
 <u>prerequisites ❷:</u><br>
 <b>Repeated again, MultiLog is a set of methods, to trace a program WITHOUT the methDebug.</b><br>
@@ -68,7 +68,7 @@ on a display medium (TMemo □, TFileText ○,TLogTreeView ▶) where it is disp
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;------→            ○ + □
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|
-.  .(TChannels; hereinafter).  .>(methValue\@integer)--→&nbsp;&nbsp;&nbsp; □
+.  .(TChannels).  .  .>(methValue\@integer)--→&nbsp;&nbsp;&nbsp; □
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|
@@ -90,7 +90,7 @@ in the file getdescriptionof_sql_exception_user.inc.<br>
 <h3>Here are some screenshots that illustrate the major features:</h3>
 <br>
 
-•<b> IPC </b>(Inter Processes Calls) between between client programs (with ou without GUI, on the left of the image below), and a server program (on the right, which displays the received messages, sent by the above mentioned client applications:
+•<b> IPC </b>(Inter Processes Communication) between between client programs (with ou without GUI, on the left of the image below), and a server program (on the right, which displays the received messages, sent by the above mentioned client applications:
 ![multilog_doc/overwiewFiles/simpleviewer.png](https://github.com/devEric69/multilog/blob/master/multilog_doc/overwiewFiles/simpleviewer.png)
 ![multilog_doc/overwiewFiles/clientsandServerIPC.png](https://github.com/devEric69/multilog/blob/master/multilog_doc/overwiewFiles/clientsandServerIPC.png)
 
