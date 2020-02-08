@@ -80,7 +80,7 @@ on a display medium (TMemo □, TFileText ○,TLogTreeView ▶) where it is disp
 <h3>Here are some screenshots that illustrate the major features (unchanged):</h3>
 </br>
 
-➔<b> IPC </b>(Inter Processes Communication) between between client programs (with ou without GUI, on the left of the image below), and a server program (on the right, which displays the received messages, sent by the above mentioned client applications:
+➔<b> IPC </b>(<b>I</b>nter <b>P</b>rocesses <b>C</b>ommunication) between between client programs (with ou without GUI, on the left of the image below), and a server program (on the right) which displays the received messages, sent by the above mentioned client applications:
 
 ![multilog_doc/overwiewFiles/simpleviewer.png](https://github.com/devEric69/multilog/blob/master/multilog_doc/overwiewFiles/simpleviewer.png)
 
