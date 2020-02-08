@@ -77,6 +77,16 @@ on a display medium (TMemo □, TFileText ○,TLogTreeView ▶) where it is disp
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;------→            ○ + ▶
 </pre>
 
+
+<br><br><br>
+<h3>Here are some screenshots that illustrate the major features (unchanged):</h3>
+<br>
+
+➔<b> IPC </b>(Inter Processes Communication) between between client programs (with ou without GUI, on the left of the image below), and a server program (on the right, which displays the received messages, sent by the above mentioned client applications:
+![multilog_doc/overwiewFiles/simpleviewer.png](https://github.com/devEric69/multilog/blob/master/multilog_doc/overwiewFiles/simpleviewer.png)
+![multilog_doc/overwiewFiles/clientsandServerIPC.png](https://github.com/devEric69/multilog/blob/master/multilog_doc/overwiewFiles/clientsandServerIPC.png)
+
+ 
 <br><br><br>
 <h3> Other little modifications: </h3>
 • SQL Exceptions that inherit from EDatabaseError are all logged in their <b>own Log_SQL.txt</b>. Indeed, in an SQL application, the majority of errors are due to bad SQL statements, 
@@ -84,17 +94,7 @@ leading to subsequent normal Exceptions and errors.<br>
 You can customize your own SQL Exception retrievals, depending on your own (SQL Classes) hierarchy, which itself often depends on your database driver (SQLdb, IBX, Zeos, ...), 
 in the file getdescriptionof_sql_exception_user.inc.<br>
 • The TFileText medium display is 'thread safe' (in the same way that TMemo was made 'thread safe') with a specialized Semaphore named a Critical section of code.<br>
-• TGroupOfForWhatReasonsToLogActually can be written to, read from, a variable in the *.ini configuration file. This allows to imagine methods to activate - deactivate - a DEBUG mode, at run-time, at the client, for example.
-
-<br><br><br>
-<h3>Here are some screenshots that illustrate the major features:</h3>
-<br>
-
-•<b> IPC </b>(Inter Processes Communication) between between client programs (with ou without GUI, on the left of the image below), and a server program (on the right, which displays the received messages, sent by the above mentioned client applications:
-![multilog_doc/overwiewFiles/simpleviewer.png](https://github.com/devEric69/multilog/blob/master/multilog_doc/overwiewFiles/simpleviewer.png)
-![multilog_doc/overwiewFiles/clientsandServerIPC.png](https://github.com/devEric69/multilog/blob/master/multilog_doc/overwiewFiles/clientsandServerIPC.png)
-
- 
+• TGroupOfForWhatReasonsToLogActually can be written to, read from, a variable in the *.ini configuration file. This allows to imagine methods to activate - deactivate - a DEBUG mode, at run-time, at the client, for example. 
 • the text log is also <b>" thread safe "</b>, and separates the descrition of SQL Exceptions from the others, each group in its own text file:<br>
 ![multilog_doc/overwiewFiles/differenciedLog.png](https://github.com/devEric69/multilog/blob/master/multilog_doc/overwiewFiles/differenciedLog.png)
 
