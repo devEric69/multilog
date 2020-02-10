@@ -7,12 +7,12 @@ This is a simplified integration of the Multilog's logging system.
 ***
 
 </br>
-<h1 align="center"> Why another "MultiLog"'s fork? </h1>
+<h1 align="center"> Why this "MultiLog"'s fork? </h1>
 Basically, it's the same as "MultiLog" at 97%.</br>
 <br>
 The only difference is that, this is a simplified integration of the logging.</br>
 This small transformation is a simplified integration of the logging mechanism, of the logged messages: to summarize, originelle Multilog's TLogger class allows the variation of both, a group of target reasons, and a group of source reasons associated with each message. In the end, the original Multilog's TLogger class logs a message with the intersection of both.</br>
-The Class TIntegratedLogger now, uses only one group: the group associated with the message. This group must be set \ modified before the logging call(s).</br>
+The Class TIntegratedLogger here, uses only one group: the group associated with the message. This group must be set \ modified before the logging call(s).</br>
 Each modification of this group, is logged with the character °: so, I can follow where the messages association group is, has been, modified.</br>
 Another small change: the Class TFileChannel has been modified to be "thread safe", too. And it can indent the logged events by watching the ESP machine register's variation.
   
