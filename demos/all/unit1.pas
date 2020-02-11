@@ -125,8 +125,8 @@ type
     procedure TimeFormatEditEditingDone(Sender: TObject);
   private
     { private declarations }
-    FoMemoChannel: TMemoChannel;
-    FoFileChannel: TFileChannel;
+    Fo_MemoChannel: TMemoChannel; { created here; but ***destroyed "in the distance"*** by the owing Channels-FpList }
+    Fo_FileChannel: TFileChannel; { created here; but ***destroyed "in the distance"*** by the owing Channels-FpList }
     FoLogTreeView: TLogTreeView;
     //new fake event's triggers (procedures of objects)
     FOnDoSmallCodePieceNum1: TNotifyEvent;
@@ -194,17 +194,17 @@ begin
     TabOrder:= 0;
     TimeFormat:= 'hh:nn:ss:zzz';
   end;
-  FoMemoChannel:= TMemoChannel.Create(memLog);
-  FoMemoChannel.TimeFormat:= FoLogTreeView.TimeFormat;
-  FoMemoChannel.ShowTime:= False;
+  Fo_MemoChannel:= TMemoChannel.Create(memLog);
+  Fo_MemoChannel.TimeFormat:= FoLogTreeView.TimeFormat;
+  Fo_MemoChannel.ShowTime:= False;
   ieChannelOptions:= [FileChannel.fcoShowHeader, FileChannel.fcoShowTime]; bWantSpecificFileForSQLstatements:= True; sPathLogAppli:= Application.Location+'Log.txt';
-  FoFileChannel:= TFileChannel.Create(sPathLogAppli, ieChannelOptions, bWantSpecificFileForSQLstatements);
-  FoFileChannel.IndentCallstackTriggeredByEntermethod:= true;
+  Fo_FileChannel:= TFileChannel.Create(sPathLogAppli, ieChannelOptions, bWantSpecificFileForSQLstatements);
+  Fo_FileChannel.IndentCallstackTriggeredByEntermethod:= true;
   TimeFormatEdit.Text:= FoLogTreeView.TimeFormat;
   with goLogger do begin
     Channels.Add( FoLogTreeView.Channel );
-    Channels.Add( FoMemoChannel );
-    Channels.Add( FoFileChannel );
+    Channels.Add( Fo_MemoChannel );
+    Channels.Add( Fo_FileChannel );
     Channels.Add( TIPCChannel.Create );
   end;
 end;
@@ -406,7 +406,7 @@ procedure TForm1.btnLoadLogFileClick(Sender: TObject);
 var
   sFullPathFileName: string;
 begin
-  sFullPathFileName:= FoFileChannel.FullPathFileName;
+  sFullPathFileName:= Fo_FileChannel.FullPathFileName;
   if FileExists(sFullPathFileName) then
   	memFileLog.Lines.LoadFromFile(sFullPathFileName);
 end;
@@ -415,7 +415,7 @@ procedure TForm1.btnDeleteLogFile1Click(Sender: TObject);
 var
   sFullPathFileName: string;
 begin
-  sFullPathFileName:= FoFileChannel.FullPathFileName;
+  sFullPathFileName:= Fo_FileChannel.FullPathFileName;
   DeleteFileUTF8(sFullPathFileName);
   memFileLog.Lines.Clear;
 end;
@@ -516,16 +516,16 @@ end;
 procedure TForm1.chkShowDynamicFilter_forWhatReasonsToLogActuallyChange(Sender: TObject);
 begin
   FoLogTreeView.ShowDynamicFilter_forWhatReasonsToLogActually:= chkShowDynamicFilter_forWhatReasonsToLogActually.Checked;
-	FoFileChannel.ShowDynamicFilter_forWhatReasonsToLogActually:= chkShowDynamicFilter_forWhatReasonsToLogActually.Checked;
-  FoMemoChannel.ShowDynamicFilter_forWhatReasonsToLogActually:= chkShowDynamicFilter_forWhatReasonsToLogActually.Checked;
+	Fo_FileChannel.ShowDynamicFilter_forWhatReasonsToLogActually:= chkShowDynamicFilter_forWhatReasonsToLogActually.Checked;
+  Fo_MemoChannel.ShowDynamicFilter_forWhatReasonsToLogActually:= chkShowDynamicFilter_forWhatReasonsToLogActually.Checked;
 end;
 
 
 procedure TForm1.chkShowUsedMethodChange(Sender: TObject);
 begin
   FoLogTreeView.ShowPrefixMethod:= chkShowUsedMethod.Checked;
-  FoFileChannel.ShowPrefixMethod:= chkShowUsedMethod.Checked;
-  FoMemoChannel.ShowPrefixMethod:= chkShowUsedMethod.Checked;
+  Fo_FileChannel.ShowPrefixMethod:= chkShowUsedMethod.Checked;
+  Fo_MemoChannel.ShowPrefixMethod:= chkShowUsedMethod.Checked;
 end;
 
 procedure TForm1.ObjectClick(Sender: TObject);
@@ -545,8 +545,8 @@ end;
 procedure TForm1.ShowTimeCheckBoxChange(Sender: TObject);
 begin
   FoLogTreeView.ShowTime:= ShowTimeCheckBox.Checked;
-  FoFileChannel.ShowTime:= ShowTimeCheckBox.Checked;
-  FoMemoChannel.ShowTime:= ShowTimeCheckBox.Checked;
+  Fo_FileChannel.ShowTime:= ShowTimeCheckBox.Checked;
+  Fo_MemoChannel.ShowTime:= ShowTimeCheckBox.Checked;
 end;
 
 procedure TForm1.DoSmallCodePieceNum1(Sender: TObject);
@@ -641,7 +641,7 @@ end;
 procedure TForm1.TimeFormatEditEditingDone(Sender: TObject);
 begin
   FoLogTreeView.TimeFormat := TimeFormatEdit.Text;
-  FoMemoChannel.TimeFormat := TimeFormatEdit.Text;
+  Fo_MemoChannel.TimeFormat := TimeFormatEdit.Text;
 end;
 
 
