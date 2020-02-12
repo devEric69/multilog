@@ -176,8 +176,8 @@ var
 
 const
   csSuffixForSQLlogFile: string = '_SQL';
-  csSQL_FileName  = 'Log_SQL.txt';
-  csNormal_FileName  = 'Log.txt';
+  csSQL_FileName  = '$Log_SQL.txt';
+  csNormal_FileName  = '$Log.txt';
 
 { TFileChannel }
 
