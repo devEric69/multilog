@@ -341,7 +341,7 @@ begin
   FbShowTime:= fcoShowTime in AChannelOptions;
   FShowHeader:= fcoShowHeader in AChannelOptions;
   FbShowPrefixMethod:= fcoShowPrefixMethod in AChannelOptions; //can be disabled with ShowPrefixMethod property
-  FbShow_DynamicFilter_forWhatReasonsToLogActually:= fcoShowPrefixMethod in AChannelOptions;
+  FbShow_DynamicFilter_forWhatReasonsToLogActually:= fcoShowDynamicFilter_forWhatReasonsToLogActually in AChannelOptions;
   	FbShowHeaderNormalWritten:= False;
     FbShowHeaderSQL_Written:= False;
   Active:= True;
