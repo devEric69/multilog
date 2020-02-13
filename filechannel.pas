@@ -394,7 +394,7 @@ end;
 
 function TFileChannel.IsSQLwordPresentInMsg: Boolean;
 const
-  csSQLmarker = '[SQL error] '; //[*] exists the same homonym and bijective const in unit MultiLog, function TIntegratedLogger.GetDescriptionOfSQLException
+  csSQLmarker = '[SQL] '; //[*] exists the same homonym and bijective const in unit MultiLog, function TIntegratedLogger.GetDescriptionOfSQLException
 begin
   Result:= AnsiContainsStr(FrecMsg.sMsgText, csSQLmarker);
 end;
