@@ -5,7 +5,7 @@
 var
   sDescr: string = '';
 const
-  csSQLmarker = '[SQL error] '; // do not change: [*] the same constant exists in the unit FileChannel
+  csSQLmarker = '[SQL] '; // do not change: [*] the same constant exists in the unit FileChannel
 begin
   (* 	Here, you can customize your SQL Exception retrievals, depending on your own hierarchy,
   		which itself often depends on your database driver (SQLdb, IBX, Zeos, ...)	*)
