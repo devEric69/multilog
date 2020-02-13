@@ -499,7 +499,7 @@ var
 							...car surtout, s'il est envoyé en IPC et lu depuis un autre programme, la mémoire devra le relire dans cet ordre,
               en utilisant TLogChannelUtils pour encoder et décoder le champ SetOf du record-TrecLogMessage.
               ^^}
-              procedure CreateMsg_withOverride_ofForWhichTrackingPurposesThisMsgIsLogged;
+              procedure CreateMsg;
               begin
                 with recMsg do begin
                   iMethUsed:= AMethodUsed;
@@ -509,30 +509,30 @@ var
                 end;
                 if (AMethodUsed = methSubEventBetweenEnterAndExitMethods) then begin
                 	recMsg.setFilterDynamic:= FsetFilterDynamic_forWhatReasonsToLogActually + [lwStudyChainedEvents];
-                  recMsg.sMsgText:= recMsg.sMsgText+'°';		// as a reminder of the unbreakable association betweeb some methode names and their homonymous group
+                  recMsg.sMsgText:= recMsg.sMsgText;		// as a reminder of the unbreakable association betweeb some methode names and their homonymous group
 								end
                 else if (AMethodUsed = methEnterMethod) or (AMethodUsed = methExitMethod) then begin
               		recMsg.setFilterDynamic:= FsetFilterDynamic_forWhatReasonsToLogActually + [lwStudyChainedEvents, lwEvents];
-                  recMsg.sMsgText:= recMsg.sMsgText+'°';		// as a reminder of the unbreakable association betweeb some methode names and their homonymous group
+                  recMsg.sMsgText:= recMsg.sMsgText;		// as a reminder of the unbreakable association betweeb some methode names and their homonymous group
                 end
                 else if (AMethodUsed = methError) or ((AMethodUsed = methException)) then begin
                   recMsg.setFilterDynamic:= FsetFilterDynamic_forWhatReasonsToLogActually + [lwError];
-                  recMsg.sMsgText:= recMsg.sMsgText+'°';		// as a reminder of the unbreakable association betweeb some methode names and their homonymous group
+                  recMsg.sMsgText:= recMsg.sMsgText;		// as a reminder of the unbreakable association betweeb some methode names and their homonymous group
                 end
                 else if (AMethodUsed = methWarning) then begin
     	            recMsg.setFilterDynamic:= FsetFilterDynamic_forWhatReasonsToLogActually + [lwWarning];
-                  recMsg.sMsgText:= recMsg.sMsgText+'°';		// as a reminder of the unbreakable association betweeb some methode names and their homonymous group
+                  recMsg.sMsgText:= recMsg.sMsgText;		// as a reminder of the unbreakable association betweeb some methode names and their homonymous group
                 end
                 else if (AMethodUsed = methInfo) then begin
     	            recMsg.setFilterDynamic:= FsetFilterDynamic_forWhatReasonsToLogActually + [lwInfo];
-                  recMsg.sMsgText:= recMsg.sMsgText+'°';		// as a reminder of the unbreakable association betweeb some methode names and their homonymous group
+                  recMsg.sMsgText:= recMsg.sMsgText;		// as a reminder of the unbreakable association betweeb some methode names and their homonymous group
                 end
                 else
                   recMsg.setFilterDynamic:= FsetFilterDynamic_forWhatReasonsToLogActually;
               end;
 
 begin
-  CreateMsg_withOverride_ofForWhichTrackingPurposesThisMsgIsLogged;
+  CreateMsg;
 
   (*IsMultiThread == true, when unit cthreads is used by a project*)
   if IsMultiThread then
