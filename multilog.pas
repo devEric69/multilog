@@ -1446,7 +1446,7 @@ begin
   pFrames:= ExceptFrames;
   for i:= 0 to ExceptFrameCount - 1 do
     sStr:= sStr + LineEnding + BackTraceStrFunc(pFrames[i]);
-  SendBuffer(methException,sStr,sStr[1],Length(sStr));
+  SendBuffer(methException,AText,sStr[1],Length(sStr));
   FsetFilterDynamic_forWhatReasonsToLogActually:= setOldFilterDynamic;
   {$endif}
 end;
