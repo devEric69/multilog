@@ -21,7 +21,7 @@ Another small change: the Class TFileChannel has been modified to be "thread saf
 </br></br></br>
 <h3>Brief summmary of the processing of «MultiLog»:</h3>
 ➔ «MultiLog» is aimed to do <b>IPC</b> (<b>I</b>nter <b>P</b>rocesses <b>C</b>ommunication) between one or some client programs (with ou without GUI), and one IPC server program which can display the received messages.
-</br>
+</br></br>
 
 ![multilog_doc/overwiewFiles/ExampleOfMinimumFilter.png](https://github.com/devEric69/multilog/blob/master/multilog_doc/overwiewFiles/ExampleOfMinimumFilter.png)
 <i>↗ Above, this image shows the (GUI) process\application named «Test multilog», which can store\log and send its inter-process client messages (towards the IPC server and its (GUI) process\application named «Simple IPC log viewer», displayed below).</i>
