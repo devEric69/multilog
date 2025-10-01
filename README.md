@@ -20,7 +20,6 @@ Another small change: the Class TFileChannel has been modified to be "thread saf
   
 </br></br></br>
 <h3>Brief summmary of the processing of «MultiLog»:</h3>
-
 ➔ «MultiLog» is aimed to do <b>IPC</b> (<b>I</b>nter <b>P</b>rocesses <b>C</b>ommunication) between one or some client programs (with ou without GUI), and one IPC server program which can display the received messages.
 </br>
 
@@ -84,8 +83,6 @@ on a display medium (TMemo □, TFileText ○,TLogTreeView ▶) where it is disp
 
 </br></br></br>
 <h3>Here are some screenshots that illustrate the major features (unchanged):</h3>
-</br>
-
 ➔ Illustration of the <b>IPC</b> (<b>I</b>nter <b>P</b>rocesses <b>C</b>ommunication) between between one or some client programs (with ou without GUI, on the left of the image below), and one server program (on the right) which displays the received messages, sent by the above mentioned client applications:
 
 ![multilog_doc/overwiewFiles/simpleviewer.png](https://github.com/devEric69/multilog/blob/master/multilog_doc/overwiewFiles/simpleviewer.png)</br>
@@ -110,5 +107,4 @@ What's for? With linked components in a chain of responsabilities (like TDbGrid<
 
 </br></br></br>
 <h3>Conclusion:</h3>
-</br>
 That's it: with «multilog», you can log many informational events, events coming from anywhere.
