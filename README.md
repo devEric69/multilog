@@ -18,10 +18,12 @@ Each modification of this group, is logged with the character °: so, I can foll
 Another small change: the Class TFileChannel has been modified to be "thread safe", too. And it can indent the logged events by watching the ESP machine register's variation.
   
 </br></br></br>
-<h3> Brief summmary of the processing of "MultiLog": </h3>
+<h3> Brief summmary of the processing of «MultiLog»: </h3>
+
+«MultiLog» is aimed to do <b>IPC</b> (<b>I</b>nter <b>P</b>rocesses <b>C</b>ommunication) between one or some client programs (with ou without GUI, on the left of the image below), and one server program which can display the received messages.
 
 ![multilog_doc/overwiewFiles/ExampleOfMinimumFilter.png](https://github.com/devEric69/multilog/blob/master/multilog_doc/overwiewFiles/ExampleOfMinimumFilter.png)
-<i>Above, this image shows the (GUI) process\application named «Test multilog», which can store\log and send its inter-processes client messages (towards the IPC server and its (GUI) process\application named «Simple IPC log viewer», displayed below).</i>
+<i>Above, this image shows the (GUI) process\application named «Test multilog», which can store\log and send its inter-process client messages (towards the IPC server and its (GUI) process\application named «Simple IPC log viewer», displayed below).</i>
 
 </br>
 <u>prerequisites ❶:</u></br>
@@ -82,7 +84,7 @@ on a display medium (TMemo □, TFileText ○,TLogTreeView ▶) where it is disp
 <h3>Here are some screenshots that illustrate the major features (unchanged):</h3>
 </br>
 
-➔<b> IPC </b>(<b>I</b>nter <b>P</b>rocesses <b>C</b>ommunication) between between client programs (with ou without GUI, on the left of the image below), and a server program (on the right) which displays the received messages, sent by the above mentioned client applications:
+➔ Illustration of the <b>IPC</b> (<b>I</b>nter <b>P</b>rocesses <b>C</b>ommunication) between between one or some client programs (with ou without GUI, on the left of the image below), and one server program (on the right) which displays the received messages, sent by the above mentioned client applications:
 
 ![multilog_doc/overwiewFiles/simpleviewer.png](https://github.com/devEric69/multilog/blob/master/multilog_doc/overwiewFiles/simpleviewer.png)<br>
 <i>One (GUI) process\application named «Test multilog» is sending its messages, towards the (GUI) process\application named «Simple IPC log viewer».</i>
