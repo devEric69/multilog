@@ -21,6 +21,7 @@ Another small change: the Class TFileChannel has been modified to be "thread saf
 <h3> Brief summmary of the processing of "MultiLog": </h3>
 
 ![multilog_doc/overwiewFiles/ExampleOfMinimumFilter.png](https://github.com/devEric69/multilog/blob/master/multilog_doc/overwiewFiles/ExampleOfMinimumFilter.png)
+<i>One (GUI) process\application named «Test multilog» is sending its messages alone, towards the (GUI) process\application named «Simple IPC log viewer».</i>
 
 </br>
 <u>prerequisites ❶:</u></br>
@@ -87,7 +88,7 @@ on a display medium (TMemo □, TFileText ○,TLogTreeView ▶) where it is disp
 <i>One (GUI) process\application named «Test multilog» is sending its messages, towards the (GUI) process\application named «Simple IPC log viewer».</i>
 <br><br><br>
 ![multilog_doc/overwiewFiles/clientsandServerIPC.png](https://github.com/devEric69/multilog/blob/master/multilog_doc/overwiewFiles/clientsandServerIPC.png)<br>
-<i>One (GUI) process\application A named «Test multilog» and another (console) process\application B named «mySenderToxardsIPCviewer» are sending their messages together, towards the (GUI) process\application named «Simple IPC log viewer».</i>
+<i>One (GUI) process\application A named «Test multilog» and another (console) process\application B named «mySenderTowardsIPCviewer» are sending their messages together, towards the (GUI) process\application named «Simple IPC log viewer».</i>
  
 </br></br></br>
 <h3> Other little modifications: </h3>
