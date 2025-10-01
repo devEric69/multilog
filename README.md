@@ -8,9 +8,10 @@ This is a simplified integration of the Multilog's logging system (written in Pa
 ***
 
 </br>
-<h1 align="center"> Why this «MultiLog»'s technical fork? </h1>
+<h1 align="center">Why this «MultiLog»'s technical fork?</h1>
+
 Basically, it's the same as «MultiLog» at 97%.</br>
-<br>
+</br>
 The only technical difference is that this is a simplified integration of the logging.<vr></vr>
 This small transformation is a simplified integration of the logging mechanism, of the logged messages: to summarize, originelle Multilog's TLogger class allows the variation of both, a group of target reasons, and a group of source reasons associated with each message. In the end, the original Multilog's TLogger class logs a message with the intersection of both.</br>
 The Class TIntegratedLogger here, uses only one group: the group associated with the message. This group must be set \ modified before the logging call(s).</br>
@@ -18,7 +19,7 @@ Each modification of this group, is logged with the character °: so, I can foll
 Another small change: the Class TFileChannel has been modified to be "thread safe", too. And it can indent the logged events by watching the ESP machine register's variation.
   
 </br></br></br>
-<h3> Brief summmary of the processing of «MultiLog»: </h3>
+<h3>Brief summmary of the processing of «MultiLog»:</h3>
 
 ➔ «MultiLog» is aimed to do <b>IPC</b> (<b>I</b>nter <b>P</b>rocesses <b>C</b>ommunication) between one or some client programs (with ou without GUI), and one IPC server program which can display the received messages.
 </br>
@@ -106,4 +107,8 @@ What's for? With linked components in a chain of responsabilities (like TDbGrid<
 
 ![multilog_doc/overwiewFiles/autoMultiLog_IndentedEBP.png](https://github.com/devEric69/multilog/blob/master/multilog_doc/overwiewFiles/autoMultiLog_IndentedEBP.png)</br>
 <i>↗ The "movie"\film of events, events displayed\indented according to the depth of their call stack.</i>
- 
+
+</br></br></br>
+<h3>Conclusion:</h3>
+</br>
+That's it: with «multilog», you can log many informational events, events coming from anywhere.
