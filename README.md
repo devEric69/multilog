@@ -83,10 +83,13 @@ on a display medium (TMemo □, TFileText ○,TLogTreeView ▶) where it is disp
 
 ➔<b> IPC </b>(<b>I</b>nter <b>P</b>rocesses <b>C</b>ommunication) between between client programs (with ou without GUI, on the left of the image below), and a server program (on the right) which displays the received messages, sent by the above mentioned client applications:
 
+<p align="center">
 ![multilog_doc/overwiewFiles/simpleviewer.png](https://github.com/devEric69/multilog/blob/master/multilog_doc/overwiewFiles/simpleviewer.png)
-
+<i>One (GUI) process\application named «Test multilog» is sending its messages, towards the (GUI) process\application named «Simple IPC log viewer».</i>
+<br><br><br>
 ![multilog_doc/overwiewFiles/clientsandServerIPC.png](https://github.com/devEric69/multilog/blob/master/multilog_doc/overwiewFiles/clientsandServerIPC.png)
-
+<i>One (GUI) process\application A named «Test multilog» and another (console) process\application B named «mySenderToxardsIPCviewer» are sending their messages together, towards the (GUI) process\application named «Simple IPC log viewer».</i>
+</p>
  
 </br></br></br>
 <h3> Other little modifications: </h3>
