@@ -87,10 +87,10 @@ on a display medium (TMemo □, TFileText ○,TLogTreeView ▶) where it is disp
 
 ➔ Illustration of the <b>IPC</b> (<b>I</b>nter <b>P</b>rocesses <b>C</b>ommunication) between between one or some client programs (with ou without GUI, on the left of the image below), and one server program (on the right) which displays the received messages, sent by the above mentioned client applications:
 
-![multilog_doc/overwiewFiles/simpleviewer.png](https://github.com/devEric69/multilog/blob/master/multilog_doc/overwiewFiles/simpleviewer.png)<br>
+![multilog_doc/overwiewFiles/simpleviewer.png](https://github.com/devEric69/multilog/blob/master/multilog_doc/overwiewFiles/simpleviewer.png)</br>
 <i>One (GUI) process\application named «Test multilog» is sending its messages, towards the (GUI) process\application named «Simple IPC log viewer».</i>
 <br><br><br>
-![multilog_doc/overwiewFiles/clientsandServerIPC.png](https://github.com/devEric69/multilog/blob/master/multilog_doc/overwiewFiles/clientsandServerIPC.png)<br>
+![multilog_doc/overwiewFiles/clientsandServerIPC.png](https://github.com/devEric69/multilog/blob/master/multilog_doc/overwiewFiles/clientsandServerIPC.png)</br>
 <i>One (GUI) process\application A named «Test multilog» and another (console) process\application B named «mySenderTowardsIPCviewer» are sending their messages together, towards the (GUI) process\application named «Simple IPC log viewer».</i>
  
 </br></br></br>
@@ -103,8 +103,6 @@ This allows to imagine methods to activate - deactivate - a DEBUG mode, at run-t
 • added possibility, to see the reasons for each logging: such a log line was added for [lwDebug, lwInfo] reasons; such another line was written for [lwError, lwIPC] reasons; the last one is a simple [lwWarning]; etc.</br> 
 • As previously stated, the text file medium can indent the logged entangled events by watching the ESP machine register's variation. 
 What's for? With linked components in a chain of responsabilities (like TDbGrid<->TDataSource<->TDataSet), wich themselves have chained events inside them, it is sometimes easier to code a single line in all existing events (mentionning the parameters that can be used or even changed there) in order to anderstand the movies of contextual events, and to study where whe have to code what:
-
-</br>
-![multilog_doc/overwiewFiles/autoMultiLog_IndentedEBP.png](https://github.com/devEric69/multilog/blob/master/multilog_doc/overwiewFiles/autoMultiLog_IndentedEBP.png) </br>
+![multilog_doc/overwiewFiles/autoMultiLog_IndentedEBP.png](https://github.com/devEric69/multilog/blob/master/multilog_doc/overwiewFiles/autoMultiLog_IndentedEBP.png)</br>
 <i>The "movie"\film of events, events displayed\indented according to the depth of their call stack.</i>
  
