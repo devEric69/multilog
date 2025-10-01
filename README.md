@@ -103,6 +103,7 @@ This allows to imagine methods to activate - deactivate - a DEBUG mode, at run-t
 • added possibility, to see the reasons for each logging: such a log line was added for [lwDebug, lwInfo] reasons; such another line was written for [lwError, lwIPC] reasons; the last one is a simple [lwWarning]; etc.</br> 
 • As previously stated, the text file medium can indent the logged entangled events by watching the ESP machine register's variation. 
 What's for? With linked components in a chain of responsabilities (like TDbGrid<->TDataSource<->TDataSet), wich themselves have chained events inside them, it is sometimes easier to code a single line in all existing events (mentionning the parameters that can be used or even changed there) in order to anderstand the movies of contextual events, and to study where whe have to code what:
+
 ![multilog_doc/overwiewFiles/autoMultiLog_IndentedEBP.png](https://github.com/devEric69/multilog/blob/master/multilog_doc/overwiewFiles/autoMultiLog_IndentedEBP.png)</br>
 <i>The "movie"\film of events, events displayed\indented according to the depth of their call stack.</i>
  
