@@ -22,6 +22,7 @@ Another small change: the Class TFileChannel has been modified to be "thread saf
 
 ➔ «MultiLog» is aimed to do <b>IPC</b> (<b>I</b>nter <b>P</b>rocesses <b>C</b>ommunication) between one or some client programs (with ou without GUI), and one IPC server program which can display the received messages.
 
+</br>
 ![multilog_doc/overwiewFiles/ExampleOfMinimumFilter.png](https://github.com/devEric69/multilog/blob/master/multilog_doc/overwiewFiles/ExampleOfMinimumFilter.png)
 <i>Above, this image shows the (GUI) process\application named «Test multilog», which can store\log and send its inter-process client messages (towards the IPC server and its (GUI) process\application named «Simple IPC log viewer», displayed below).</i>
 
@@ -103,6 +104,7 @@ This allows to imagine methods to activate - deactivate - a DEBUG mode, at run-t
 • As previously stated, the text file medium can indent the logged entangled events by watching the ESP machine register's variation. 
 What's for? With linked components in a chain of responsabilities (like TDbGrid<->TDataSource<->TDataSet), wich themselves have chained events inside them, it is sometimes easier to code a single line in all existing events (mentionning the parameters that can be used or even changed there) in order to anderstand the movies of contextual events, and to study where whe have to code what:
 
+</br>
 ![multilog_doc/overwiewFiles/autoMultiLog_IndentedEBP.png](https://github.com/devEric69/multilog/blob/master/multilog_doc/overwiewFiles/autoMultiLog_IndentedEBP.png) </br>
 <i>The "movie"\film of events, events displayed\indented according to the depth of their call stack.</i>
  
