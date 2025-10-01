@@ -8,8 +8,8 @@ This is a simplified integration of the Multilog's logging system (written in Pa
 ***
 
 </br>
-<h1 align="center"> Why this "MultiLog"'s fork? </h1>
-Basically, it's the same as "MultiLog" at 97%.</br>
+<h1 align="center"> Why this «MultiLog»'s fork? </h1>
+Basically, it's the same as «MultiLog» at 97%.</br>
 <br>
 The only difference is that this is a simplified integration of the logging.</br>
 This small transformation is a simplified integration of the logging mechanism, of the logged messages: to summarize, originelle Multilog's TLogger class allows the variation of both, a group of target reasons, and a group of source reasons associated with each message. In the end, the original Multilog's TLogger class logs a message with the intersection of both.</br>
