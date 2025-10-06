@@ -89,7 +89,7 @@ on a display medium (TMemo □, TFileText ○,TLogTreeView ▶) where it is disp
  
 </br></br></br>
 <h3> Other little modifications: </h3>
-• SQL Exceptions that inherit from EDatabaseError are all logged in their <b>own Log_SQL.txt</b>. Indeed, in an SQL application, the majority of errors are due to bad SQL statements, leading to subsequent normal Exceptions and errors.</br>
+• SQL Exceptions that inherit from EDatabaseError are all logged in their <b>own Log_SQL.txt</b>. Indeed, in an SQL application, the majority of errors are due to bad SQL statements, leading to subsequent normal Exceptions and errors. 
 You can customize your own SQL Exception retrievals, depending on your own (SQL Classes) hierarchy, which itself often depends on your database driver (SQLdb, IBX, Zeos, ...), in the file getdescriptionof_sql_exception_user.inc.</br>
 • The TFileText medium display is 'thread safe' (in the same way that TMemo was made 'thread safe') with a specialized Semaphore named a Critical section of code. It separates the descrition of SQL Exceptions from the others, each group in its own text file.</br>
 • TGroupOfForWhatReasonsToLogActually can be written to, read from, a variable in the ini configuration file. 
