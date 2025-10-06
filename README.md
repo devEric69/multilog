@@ -27,7 +27,7 @@ This small transformation consists of a simplified integration of the logging me
 The Class TIntegratedLogger has a group of methods in order to trace a program: methEnterMethod, methExitMethod, methValue, methInfo, methWaring, an so one. Many methods then... <b>without one: methDebug</b> (no group of methods can carry the methDebug signature)!<br>
 </br>
 <u>prerequisites ❷:</u></br>
-<b>Repeated again, MultiLog is composed of sets of methods (each set has its own signature meth*) to trace a program, WITHOUT the methDebug.</b></br>
+<b>Repeated again, MultiLog is composed of sets of methods (each set has its own signature meth*) to trace a program (WITHOUT the methDebug signature being an exception).</b></br>
 </br>
 <u>prerequisites ❸:</u></br>
 ==> In TIntegratedLogger, there remains only 1 classification group - a dynamic group \ "set of: it is simply the filter that lists the ***effectively purposes***, the reasons (among all the preceding possible) associated with each TIntegratedLogger's logging method considered, explaining why one writes (actually and sub-sequentially) in the log (see TIntegratedLogger.FsetFilterDynamic_ofWhatCanBeEffectivelyLogged field).</br>
