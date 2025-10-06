@@ -1,7 +1,7 @@
 # Multilog
 This is a simplified integration of the Multilog's logging system (written in Pascal with Lazarus).
 
-[You can read here, an overview of the features \ modifications in this fork compared to the original one](https://github.com/devEric69/multilog/blob/master/multilog_doc/overwiew.htm): it's generally speaking the same things as below, repeated differently.
+[You can read here, an overview of the features \ modifications in this fork compared to the original one](https://github.com/devEric69/multilog/blob/master/multilog_doc/overwiew.htm): ← here are the same things as below ↓, just repeated differently.
 </br>
 
 ***
