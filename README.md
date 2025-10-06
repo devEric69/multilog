@@ -7,15 +7,13 @@ This is a simplified integration of the Multilog's logging system (written in Pa
 ***
 
 </br>
-<h1 align="center">Why this «MultiLog»'s technical fork?</h1>
+<h1 align="center">Why yet another «MultiLog»'s technical fork?</h1>
 
-Basically, it's the same as «MultiLog» at 97%.</br>
+Basically, it's the same as «MultiLog» (at 95%).</br>
 </br>
-The only technical difference is that this is a simplified integration of the logging.<vr></vr>
-This small transformation is a simplified integration of the logging mechanism, of the logged messages: to summarize, originelle Multilog's TLogger class allows the variation of both, a group of target reasons, and a group of source reasons associated with each message. In the end, the original Multilog's TLogger class logs a message with the intersection of both.</br>
-The Class TIntegratedLogger here, uses only one group: the group associated with the message. This group must be set \ modified before the logging call(s).</br>
-Each modification of this group, is logged with the character °: so, I can follow where the messages association group is, has been, modified.</br>
-Another small change: the Class TFileChannel has been modified to be "thread safe", too. And it can indent the logged events by watching the ESP machine register's variation.
+The only technical difference is that this is a simplified integration of the logging.</br></br>
+This small transformation consists of a simplified integration of the logging mechanism of the logged messages: to summarize, originelle Multilog's TLogger class allows the message's selecting variation on the both sides: on the side of a group of target reasons and on the side of a group of source reasons, each side associated with the tracked message. At the end, the original Multilog's TLogger class logs a said message if it's in the intersection of both sides.</br>
+The Class TIntegratedLogger here, <u>uses \ tackles only one group</u>: the group associated with the message. This group must be set \ modified before the logging call(s). Each modification of this group, is logged with the character °: so, I can follow where the messages association group is modified, has been modified. Another small change: the Class TFileChannel has been modified to be "thread safe", too. And it can indent the logged events by watching the ESP machine register's variation.
   
 </br></br></br>
 <h3>Brief summmary of the processing of «MultiLog»:</h3>
@@ -102,7 +100,7 @@ This allows to imagine methods to activate - deactivate - a DEBUG mode, at run-t
 What's for? With linked components in a chain of responsabilities (like TDbGrid<->TDataSource<->TDataSet), wich themselves have chained events inside them, it is sometimes easier to code a single line in all existing events (mentionning the parameters that can be used or even changed there) in order to anderstand the movies of contextual events, and to study where whe have to code what:
 
 ![multilog_doc/overwiewFiles/autoMultiLog_IndentedEBP.png](https://github.com/devEric69/multilog/blob/master/multilog_doc/overwiewFiles/autoMultiLog_IndentedEBP.png)</br>
-<i>↗ The "movie"\film of events, events displayed\indented according to the depth of their call stack.</i>
+<i>↗ The "movie"\film of events, events displayed\indented according to the depth of their call stack through the ESP machine register's variation.</i>
 
 </br></br></br>
 <h3>Conclusion:</h3>
