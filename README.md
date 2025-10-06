@@ -24,7 +24,7 @@ This small transformation consists of a simplified integration of the logging me
 
 </br>
 <u>prerequisites ❶:</u></br>
-The Class TIntegratedLogger has a group of methods in order to trace a program: methEnterMethod, methExitMethod, methValue, methInfo, methWaring, an so one. Many methods then... <b>without one: methDebug (no group of methods an carry the methDebug signature)!<br>
+The Class TIntegratedLogger has a group of methods in order to trace a program: methEnterMethod, methExitMethod, methValue, methInfo, methWaring, an so one. Many methods then... <b>without one: methDebug</b>b> (no group of methods can carry the methDebug signature)!<br>
 </br>
 <u>prerequisites ❷:</u></br>
 <b>Repeated again, MultiLog is composed of sets of methods (each set has its own signature meth*) to trace a program, WITHOUT the methDebug.</b></br>
